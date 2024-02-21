@@ -10,7 +10,7 @@ const Acceleration = () => {
   return (
    <>
    <PageHeading 
-     title='Acceleration '
+     title='Start-up Incubation'
      bgSrc='/images/team_hero_bg.jpeg'
      pageLinkText='Acceleration '
    />

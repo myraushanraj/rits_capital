@@ -10,7 +10,7 @@ const Accounting = () => {
   return (
    <>
    <PageHeading 
-     title='Accounting '
+     title='Financial Support Services '
      bgSrc='/images/team_hero_bg.jpeg'
      pageLinkText='Accounting '
    /><Spacing lg='150' md='80'/>

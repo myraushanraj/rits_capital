@@ -57,16 +57,16 @@ export default function Home() {
   ]
   const serviceData1 = [
     {
-      title: 'UI/UX Design',
-      href: '/service/service-details',
+      title: 'Our',
+      // href: '/service/service-details',
     },
     {
-      title: 'Marketing',
-      href: '/service/service-details',
+      title: 'Event',
+      // href: '/service/service-details',
     },
     {
-      title: 'Branding',
-      href: '/service/service-details',
+      title: 'Partners',
+      // href: '/service/service-details',
     },
   ];
   // FunFact Data
@@ -112,7 +112,7 @@ export default function Home() {
       category: 'Branding',
     },
     {
-      title: 'Accounting ',
+      title: 'Financial Support Services ',
       subtitle: "Experience financial precision with Rits Capital's comprehensive accounting services. Our experts bring accuracy and transparency to your financial records, ensuring compliance with Tax regulations. Dive into our Advisory Services for strategic financial guidance tailored to your goals. With Audit Support Services, trust in a meticulous review of your financial processes. Rits Capital is your trusted partner for holistic accounting solutions, crafting a financial landscape where accuracy, compliance, and strategic vision converge for sustained success. ",
       btnText: 'See Details',
       btnLink: '/Accounting',
@@ -120,7 +120,7 @@ export default function Home() {
       category: 'UI Design',
     },
     {
-      title: 'Acceleration ',
+      title: 'Start-up Incubation ',
       subtitle: "Fuel your business growth with Rits Capital's Acceleration services. Experience personalized mentorship and handholding that propels your venture to new heights. Navigate strategic roll-ups with our expert guidance, optimizing synergies for unparalleled success. Unlock a dynamic office space that fosters innovation and collaboration. At Rits Capital, we go beyond funding – we provide comprehensive Funding Support, ensuring your business has the financial backing it needs to thrive. Propel your journey with Rits Capital's Acceleration services, where mentorship, strategy, infrastructure, and funding converge for a transformative business trajectory. ",
       btnText: 'See Details',
       btnLink: '/Acceleration',
@@ -148,8 +148,8 @@ export default function Home() {
         btnText="Get a Quote"
         btnLink="/contact"
         scrollDownId="#service"
-        // socialLinksHeading="Follow Us"
-        // heroSocialLinks={heroSocialLinks}
+        socialLinksHeading="Follow Us"
+        heroSocialLinks={heroSocialLinks}
         bgImageUrl="/images/h1.jpg"
         
       /> */}
@@ -414,10 +414,10 @@ export default function Home() {
       {/* Start CTA Section */}
       <Div className="container">
         <Cta
-          title="Let’s disscuse make <br />something <i>cool</i> together"
+          title="Let’s disscuse make <br />something <i>cool</i> together"cta
           btnText="Apply For Meeting"
           btnLink="/contact"
-          // bgSrc="/images/contactbg.avif"
+          bgSrc="/images/contactbg.avif"
         />
       </Div>
       {/* End CTA Section */}

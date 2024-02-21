@@ -33,7 +33,7 @@ export default function Header({ variant }) {
             <Div className="cs-main_header_in">
               <Div className="cs-main_header_left">
                 <Link className="cs-site_branding" to="/">
-                  <img src="/images/ritslogo2.png" alt="Logo" />
+                  <img src="/images/ritslogo1.png" alt="Logo" />
                 </Link>
               </Div>
               <Div className="cs-main_header_center">
@@ -43,12 +43,12 @@ export default function Header({ variant }) {
                     style={{ display: `${mobileToggle ? 'block' : 'none'}` }}
                   >
                     <li 
-                    // className="menu-item-has-children"
+                    className="menu-item-has-children"
                     >
                       <NavLink to="/" onClick={() => setMobileToggle(false)}>
                         Home
                       </NavLink>
-                      {/* <DropDown>
+                      <DropDown>
                         <ul>
                           <li>
                             <Link to="/" onClick={() => setMobileToggle(false)}>
@@ -104,7 +104,7 @@ export default function Header({ variant }) {
                             </Link>
                           </li>
                         </ul>
-                      </DropDown> */}
+                      </DropDown>
                     </li>
                     <li>
                       <NavLink
@@ -114,7 +114,9 @@ export default function Header({ variant }) {
                         Who we are
                       </NavLink>
                     </li>
-                    {/* <li className="menu-item-has-children">
+                    <li 
+                    // className="menu-item-has-children"
+                    >
                       <NavLink
                         to="service"
                         onClick={() => setMobileToggle(false)}
@@ -141,7 +143,7 @@ export default function Header({ variant }) {
                           </li>
                         </ul>
                       </DropDown>
-                    </li> */}
+                    </li>
                     <li className="menu-item-has-children">
                       <NavLink
                         to="Wealthmanagement"
@@ -180,7 +182,7 @@ export default function Header({ variant }) {
                               to="Accounting"
                               onClick={() => setMobileToggle(false)}
                             >
-                              Accounting
+                              Financial Support Services
                             </Link>
                           </li>
                           <li>
@@ -188,7 +190,7 @@ export default function Header({ variant }) {
                               to="Acceleration"
                               onClick={() => setMobileToggle(false)}
                             >
-                              Acceleration
+                              Start-up Incubation
                             </Link>
                           </li>
                           <li>
@@ -234,6 +236,14 @@ export default function Header({ variant }) {
                           </li>
                         </ul>
                       </DropDown>
+                    </li>
+                    <li>
+                      <NavLink
+                        to="Whyus"
+                        onClick={() => setMobileToggle(false)}
+                      >
+                        Why us
+                      </NavLink>
                     </li>
                     <li
                     //  className="menu-item-has-children"

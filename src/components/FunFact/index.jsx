@@ -51,7 +51,7 @@ class FunFact extends React.Component {
             <section className="funfacts-area ptb-120">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-3 col-6 col-sm-6">
+                        <div className="col-lg-3 col-sm-6">
                             <div className="single-funfact">
                                 <div className="icon">
                                     <i className="icofont-focus"></i>
@@ -81,7 +81,7 @@ class FunFact extends React.Component {
                             </div>
                         </div>
                         
-                        <div className="col-lg-3 col-6 col-sm-6">
+                        <div className="col-lg-3 col-sm-6">
                             <div className="single-funfact">
                                 <div className="icon">
                                     <i className="icofont-microphone"></i>
@@ -111,7 +111,7 @@ class FunFact extends React.Component {
                             </div>
                         </div>
 
-                        <div className="col-lg-3 col-6 col-sm-6">
+                        <div className="col-lg-3 -sm-6">
                             <div className="single-funfact">
                                 <div className="icon">
                                     <i className="icofont-copy"></i>
@@ -140,7 +140,7 @@ class FunFact extends React.Component {
                             </div>
                         </div>
 
-                        <div className="col-lg-3 col-6 col-sm-6">
+                        <div className="col-lg-3 -sm-6">
                             <div className="single-funfact">
                                 <div className="icon">
                                     <i className="icofont-users-social"></i>
