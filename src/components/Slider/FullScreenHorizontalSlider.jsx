@@ -80,7 +80,7 @@ export default function FullScreenHorizontalSlider({ data, btnText,
           <SwiperSlide key={index}>
             <Div
               className="cs-hero cs-style4 cs-bg"
-              // style={{ backgroundImage: `url(${item.imgUrl})` }}
+              style={{ backgroundImage: `url(${item.imgUrl})` }}
             >
               <Link to={item.href} className="cs-hero_link" />
               <Div className="container cs-hero cs-style1">

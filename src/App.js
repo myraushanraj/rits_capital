@@ -25,6 +25,7 @@ import Investment from "./components/Pages/Investment";
 import Preipo from "./components/Pages/Preipo";
 import Accounting from "./components/Pages/Accounting";
 import Acceleration from "./components/Pages/Acceleration";
+import Whyus from './components/Pages/Whyus';
 
 
 
@@ -51,6 +52,8 @@ function App() {
           <Route path="Accounting" element={<Accounting />} />
           <Route path="Acceleration" element={<Acceleration />} />
           <Route path="Preipo" element={<Preipo />} />
+          <Route path="Whyus" element={<Whyus />} />
+
 
           <Route path="portfolio" element={<PortfolioPage />} />
           <Route

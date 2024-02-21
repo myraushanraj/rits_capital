@@ -170,7 +170,7 @@ const Investment = () => {
        <Div className="col-lg-6">
          <Spacing lg='0' md='45'/>
          <Div className="cs-section_heading cs-style1">
-           <h2 className="cs-section_title">  Debt Advisory   </h2>
+           <h2 className="cs-section_title">  Debt Products   </h2>
            <Div className="cs-height_10 cs-height_lg_10" />
            <h3 className="cs-section_subtitle"> Navigating Capital Markets    </h3>
            <Div className="cs-height_5 cs-height_lg_5" />

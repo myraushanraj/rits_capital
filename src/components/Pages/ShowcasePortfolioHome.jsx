@@ -23,37 +23,37 @@ export default function ShowcasePortfolioHome() {
   const showcaseData = [
     {
       title: 'Rits Capital',
-      imgUrl: '/images/slider_1.jpeg',
+      imgUrl: '/images/b1.png',
       href: '/case-study/case-study-details',
       subtitle:"At Rits Capital, we understand that wealth management is more than just numbers. It's about your goals, your dreams, and your legacy. We partner with you to create a personalized plan that grows your wealth, protects your assets, and helps you achieve your financial aspirations.",
     },
     {
       title: 'Wealth Management Service',
-      imgUrl: '/images/slider_2.jpeg',
+      imgUrl: '/images/b2.png',
       href: '/case-study/case-study-details',
       subtitle:"At Rits Capital, we understand that wealth management is more than just numbers. It's about your goals, your dreams, and your legacy. We partner with you to create a personalized plan that grows your wealth, protects your assets, and helps you achieve your financial aspirations.",
     },
     {
       title: 'Investement',
-      imgUrl: '/images/slider_3.jpeg',
+      imgUrl: '/images/b3.png',
       href: '/case-study/case-study-details',
       subtitle:"At Rits Capital, we understand that wealth management is more than just numbers. It's about your goals, your dreams, and your legacy. We partner with you to create a personalized plan that grows your wealth, protects your assets, and helps you achieve your financial aspirations.",
     },
     {
       title: 'Accounting',
-      imgUrl: '/images/slider_4.jpeg',
+      imgUrl: '/images/b4.png',
       href: '/case-study/case-study-details',
       subtitle:"At Rits Capital, we understand that wealth management is more than just numbers. It's about your goals, your dreams, and your legacy. We partner with you to create a personalized plan that grows your wealth, protects your assets, and helps you achieve your financial aspirations.",
     },
     {
       title: 'Acceleration',
-      imgUrl: '/images/slider_4.jpeg',
+      imgUrl: '/images/b5.png',
       href: '/case-study/case-study-details',
       subtitle:"At Rits Capital, we understand that wealth management is more than just numbers. It's about your goals, your dreams, and your legacy. We partner with you to create a personalized plan that grows your wealth, protects your assets, and helps you achieve your financial aspirations.",
     },
     {
       title: 'Pre-Ipo',
-      imgUrl: '/images/slider_4.jpeg',
+      imgUrl: '/images/b6.png',
       href: '/case-study/case-study-details',
       subtitle:"At Rits Capital, we understand that wealth management is more than just numbers. It's about your goals, your dreams, and your legacy. We partner with you to create a personalized plan that grows your wealth, protects your assets, and helps you achieve your financial aspirations.",
     },

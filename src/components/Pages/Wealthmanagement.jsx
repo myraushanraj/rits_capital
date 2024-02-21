@@ -51,7 +51,7 @@ Access catered solutions for wealth growth.  </p>
        <Div className="col-lg-6">
          <Spacing lg='0' md='45'/>
          <Div className="cs-section_heading cs-style1">
-           <h2 className="cs-section_title">Portfolio Management Services</h2>
+           <h2 className="cs-section_title">Portfolio Management Services (PMS)</h2>
            <Div className="cs-height_10 cs-height_lg_10" />
            {/* <h3 className="cs-section_subtitle">Product Designer</h3> */}
            <Div className="cs-height_5 cs-height_lg_5" />
@@ -85,7 +85,7 @@ Access catered solutions for wealth growth.  </p>
        <Div className="col-lg-6 offset-xl-1">
          <Spacing lg='0' md='45'/>
          <Div className="cs-section_heading cs-style1">
-           <h2 className="cs-section_title">Wealth Planning </h2>
+           <h2 className="cs-section_title">Pre-IPO </h2>
            <Div className="cs-height_10 cs-height_lg_10" />
            {/* <h3 className="cs-section_subtitle">Product Designer</h3> */}
            <Div className="cs-height_5 cs-height_lg_5" />
@@ -109,7 +109,7 @@ Access catered solutions for wealth growth.  </p>
        <Div className="col-lg-6">
          <Spacing lg='0' md='45'/>
          <Div className="cs-section_heading cs-style1">
-           <h2 className="cs-section_title">Liquidity and Lending  </h2>
+           <h2 className="cs-section_title">Start Up </h2>
            <Div className="cs-height_10 cs-height_lg_10" />
            {/* <h3 className="cs-section_subtitle">Product Designer</h3> */}
            <Div className="cs-height_5 cs-height_lg_5" />
@@ -130,6 +130,63 @@ Access catered solutions for wealth growth.  </p>
      </Div>
      
    </Div>
+   <Spacing lg='80' md='80'/>
+
+   <Div className="container">
+     <Div className="row align-items-center">
+       <Div className="col-xl-5 col-lg-6">
+         <Div className="cs-radius_15 cs-shine_hover_1">
+           <img src="/images/h13.jpg" alt="Member" className="w-100" />
+         </Div>
+       </Div>
+       <Div className="col-lg-6 offset-xl-1">
+         <Spacing lg='0' md='45'/>
+         <Div className="cs-section_heading cs-style1">
+           <h2 className="cs-section_title">Pre-IPO </h2>
+           <Div className="cs-height_10 cs-height_lg_10" />
+           {/* <h3 className="cs-section_subtitle">Product Designer</h3> */}
+           <Div className="cs-height_5 cs-height_lg_5" />
+           <Div className="cs-separator cs-accent_bg" />
+           <Div className="cs-height_45 cs-height_lg_25" />
+           <p className="cs-m0">Our experts support you in managing your wealth where you can approach easy solutions with our served resources and guidance. Rits Capital gives you access to manage your finances for your future security. We help you to enhance your cash flow, boost your net worth, and provide you guidelines to decrease your debts. </p>
+           <Div className="cs-height_25 cs-height_lg_20" />
+           {/* <p className="cs-m0">Ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit.</p> */}
+           <Div className="cs-height_45 cs-height_lg_30" />
+           {/* <SocialWidget/> */}
+         </Div>
+       </Div>
+     </Div>
+     
+   </Div>
+   <Spacing lg='80' md='80'/>
+
+<Div className="container">
+  <Div className="row align-items-center">
+  
+    <Div className="col-lg-6">
+      <Spacing lg='0' md='45'/>
+      <Div className="cs-section_heading cs-style1">
+        <h2 className="cs-section_title">Spac Framework  </h2>
+        <Div className="cs-height_10 cs-height_lg_10" />
+        {/* <h3 className="cs-section_subtitle">Product Designer</h3> */}
+        <Div className="cs-height_5 cs-height_lg_5" />
+        <Div className="cs-separator cs-accent_bg" />
+        <Div className="cs-height_45 cs-height_lg_25" />
+        <p className="cs-m0">Liquidity- We keep measuring the money and assets you are available with for fulfilling your present and future requirements. We ensure easy availability of the money which has been invested considering your liquidity needs.  </p>
+        <Div className="cs-height_25 cs-height_lg_20" />
+        <p className="cs-m0">Lending- We help you with lending requirements by effectively managing your finances and ensuring all your repayments can be met. Your portfolios get structured in a way where your personal needs can be easily fulfilled. </p>
+        <Div className="cs-height_45 cs-height_lg_30" />
+        {/* <SocialWidget/> */}
+      </Div>
+    </Div>
+    <Div className="col-xl-5 col-lg-6 offset-xl-1">
+      <Div className="cs-radius_15 cs-shine_hover_1">
+        <img src="/images/h14.jpg" alt="Member" className="w-100" />
+      </Div>
+    </Div>
+  </Div>
+  
+</Div>
  
    <Spacing lg='80' md='80'/>
    {/* <Div className="container">
