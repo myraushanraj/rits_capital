@@ -51,7 +51,7 @@
     cursor: pointer;
     border: 2px solid currentColor;
     border-radius: 50%;
-    color: $white;
+    color: #666667;
     .cs-icon_btn_in {
       width: 18px;
       height: 16px;
@@ -291,7 +291,7 @@
 }
 .cs-sticky_header_active {
   top: 0px;
-  background-color: $greenwhite;
+  background-color: $white;
 }
 
 // .cs-gescout_show {
@@ -755,4 +755,7 @@
 }
 
 @media screen and (max-width: 450px) {
+}
+ .cs-main_header_in a{
+  color: #666667;
 }

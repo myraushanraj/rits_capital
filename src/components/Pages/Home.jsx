@@ -156,7 +156,7 @@ export default function Home() {
      
       
       {/* End Hero Section */}
-
+  <Spacing lg="50" md="80" />
       {/* Start FunFact Section */}
       <div className="container">
         <FunFact/>

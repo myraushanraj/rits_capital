@@ -54,7 +54,7 @@ class FunFact extends React.Component {
                         <div className="col-lg-3 col-sm-6">
                             <div className="single-funfact">
                                 <div className="icon">
-                                    <i className="icofont-focus"></i>
+                                <img src="/images/webicons/profit.png" alt="" />
                                 </div>
                                 <h3 className="odometer">
                                     <span>$</span>
@@ -84,7 +84,7 @@ class FunFact extends React.Component {
                         <div className="col-lg-3 col-sm-6">
                             <div className="single-funfact">
                                 <div className="icon">
-                                    <i className="icofont-microphone"></i>
+                                    <img src="/images/webicons/ipo.png" alt="" />
                                 </div>
                                 <h3 className="odometer">
                                     <VisibilitySensor
@@ -114,7 +114,8 @@ class FunFact extends React.Component {
                         <div className="col-lg-3 -sm-6">
                             <div className="single-funfact">
                                 <div className="icon">
-                                    <i className="icofont-copy"></i>
+                                <img src="/images/webicons/return-on-investment.png" alt="" />
+                                    
                                 </div>
                                 <h3 className="odometer">
                                     <VisibilitySensor
@@ -143,7 +144,8 @@ class FunFact extends React.Component {
                         <div className="col-lg-3 -sm-6">
                             <div className="single-funfact">
                                 <div className="icon">
-                                    <i className="icofont-users-social"></i>
+                                <img src="/images/webicons/asset.png" alt="" />
+                                    
                                 </div>
                                 <h3 className="odometer">
                                     <VisibilitySensor

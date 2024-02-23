@@ -44,7 +44,7 @@ class FunFact2 extends React.Component {
                         <div className="col-lg-3 col-sm-6">
                             <div className="single-funfact">
                                 <div className="icon">
-                                    <i className="icofont-focus"></i>
+                                <img src="/images/webicons/workplace.png" alt="" />
                                 </div>
                                 <h3 className="odometer">
                                     {/* <span>$</span> */}
@@ -74,7 +74,8 @@ class FunFact2 extends React.Component {
                         <div className="col-lg-3 col-sm-6">
                             <div className="single-funfact">
                                 <div className="icon">
-                                    <i className="icofont-microphone"></i>
+                                <img src="/images/webicons/data-management.png" alt="" />
+
                                 </div>
                                 <h3 className="odometer">
                                     <VisibilitySensor
@@ -104,7 +105,8 @@ class FunFact2 extends React.Component {
                         <div className="col-lg-3 col-sm-6">
                             <div className="single-funfact">
                                 <div className="icon">
-                                    <i className="icofont-copy"></i>
+                                <img src="/images/webicons/profit.png " alt="" />
+
                                 </div>
                                 <h3 className="odometer">
                                   <span>$</span>
@@ -134,7 +136,7 @@ class FunFact2 extends React.Component {
                         <div className="col-lg-3 col-sm-6">
                             <div className="single-funfact">
                                 <div className="icon">
-                                    <i className="icofont-users-social"></i>
+                                <img src="/images/webicons/fixed-asset.png" alt="" />
                                 </div>
                                 <h3 className="odometer">
                                   <span>$</span>

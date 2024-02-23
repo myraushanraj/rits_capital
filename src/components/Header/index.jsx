@@ -43,12 +43,12 @@ export default function Header({ variant }) {
                     style={{ display: `${mobileToggle ? 'block' : 'none'}` }}
                   >
                     <li 
-                    className="menu-item-has-children"
+                    // className="menu-item-has-children"
                     >
                       <NavLink to="/" onClick={() => setMobileToggle(false)}>
                         Home
                       </NavLink>
-                      <DropDown>
+                      {/* <DropDown>
                         <ul>
                           <li>
                             <Link to="/" onClick={() => setMobileToggle(false)}>
@@ -104,7 +104,7 @@ export default function Header({ variant }) {
                             </Link>
                           </li>
                         </ul>
-                      </DropDown>
+                      </DropDown> */}
                     </li>
                     <li>
                       <NavLink
@@ -114,8 +114,8 @@ export default function Header({ variant }) {
                         Who we are
                       </NavLink>
                     </li>
-                    <li 
-                    // className="menu-item-has-children"
+                    {/* <li 
+                    className="menu-item-has-children"
                     >
                       <NavLink
                         to="service"
@@ -143,7 +143,7 @@ export default function Header({ variant }) {
                           </li>
                         </ul>
                       </DropDown>
-                    </li>
+                    </li> */}
                     <li className="menu-item-has-children">
                       <NavLink
                         to="Wealthmanagement"

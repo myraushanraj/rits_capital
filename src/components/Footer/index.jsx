@@ -18,6 +18,25 @@ export default function Footer({copyrightText, logoSrc, logoAlt, text}) {
       // href: '/'
     }
   ]
+  const aboutMenu = [
+    {
+      title: 'UI/UX design',
+      // href: '/service/service-details'
+    },
+    {
+      title: 'WP development',
+      // href: '/service/service-details'
+    },
+    {
+      title: 'Digital marketing',
+      // href: '/service/service-details'
+    },
+    {
+      title: 'React development',
+      // href: '/service/service-details'
+    },
+  ]
+
   
   const serviceMenu = [
     {
@@ -43,27 +62,37 @@ export default function Footer({copyrightText, logoSrc, logoAlt, text}) {
       <Div className="cs-fooer_main">
         <Div className="container">
           <Div className="row">
-            <Div className="col-lg-3 col-sm-6">
+            <Div className="col-lg-2 col-sm-6">
               <Div className="cs-footer_item">
                 <TextWidget 
-                  logoSrc='/images/ritslogo2.png' 
+                  logoSrc='/images/ritslogo1.png' 
                   logoAlt='Logo'
-                  // text ='Welcome to arino sed ut perspiciae omunde omnis iste natus error sitort voluptatem accusantium.'
+                  text ='Welcome to arino sed ut perspiciae omunde omnis iste natus error sitort voluptatem accusantium.'
                 />
                 {/* <SocialWidget/> */}
               </Div>
             </Div>
-            <Div className="col-lg-3 col-sm-6">
+            <Div className="col-lg-2 col-sm-6">
               <Div className="cs-footer_item">
                 <MenuWidget menuItems={serviceMenu} menuHeading='Services'/>
               </Div>
             </Div>
-            <Div className="col-lg-3 col-sm-6">
+            <Div className="col-lg-2 col-sm-6">
+              <Div className="cs-footer_item">
+                <MenuWidget menuItems={aboutMenu} menuHeading='About Rits Capital'/>
+              </Div>
+            </Div>
+              <Div className="col-lg-2 col-sm-6">
+              <Div className="cs-footer_item">
+                <MenuWidget menuItems={serviceMenu} menuHeading='Services'/>
+              </Div>
+            </Div>
+            <Div className="col-lg-2 col-sm-6">
               <Div className="cs-footer_item">
                 <ContactInfoWidget title='Contact Us'/>
               </Div>
             </Div>
-            <Div className="col-lg-3 col-sm-6">
+            <Div className="col-lg-2 col-sm-6">
               <Div className="cs-footer_item">
                 <Newsletter 
                   title='Subscribe' 
