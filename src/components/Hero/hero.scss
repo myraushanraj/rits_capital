@@ -286,8 +286,24 @@
   height: 100vh;
   display: flex;
   align-items: center;
-  padding: 80px 115px;
+  // padding: 80px 115px;
 }
+.bg{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  // padding: 80px 115px;
+  
+  width: 100vw;
+  background-color: #0e1323c5;
+z-index: 99;
+// margin-left: 0;
+position: absolute;
+}
+.bg h2{
+ color: #fff;
+}
+
 .cs-hero.cs-style4 {
   .cs-hero_text {
     position: relative;
@@ -756,7 +772,7 @@
   .cs-hero_subtitle {
     font-size: 18px;
     line-height: 1.9em;
-    color: $primary;
+    color: $white;
   }
   .cs-hero_info {
     display: flex;

@@ -84,13 +84,13 @@ const Investment = () => {
        <Div className="col-lg-6 offset-xl-1">
          <Spacing lg='0' md='45'/>
          <Div className="cs-section_heading cs-style1">
-           <h2 className="cs-section_title">   Private Equity  </h2>
+           <h2 className="cs-section_title">   M&A  </h2>
            <Div className="cs-height_10 cs-height_lg_10" />
-           <h3 className="cs-section_subtitle">  Tailored Investment Solutions </h3>
+           <h3 className="cs-section_subtitle"> Elevate Your Strategy </h3>
            <Div className="cs-height_5 cs-height_lg_5" />
            <Div className="cs-separator cs-accent_bg" />
            <Div className="cs-height_45 cs-height_lg_25" />
-           <p className="cs-m0">Explore bespoke investment solutions with Rits Capital's Private Equity expertise. We align your goals with lucrative opportunities and foster growth, innovation, and success. Connect with us to open the potential of your private investments.  
+           <p className="cs-m0">Navigate mergers and acquisitions (M&A) with precision. Rits Capital provides strategic insights, meticulous planning, and execution excellence. Whether you're expanding, consolidating, or restructuring, we ensure a seamless journey towards your growth objectives.  
    </p>
            <Div className="cs-height_25 cs-height_lg_20" />
            {/* <p className="cs-m0"> Our Valuation services provide clarity in the complex financial landscape. Seamlessly navigate Equity Capital Markets (ECM) with our advisory and secure your financial future with Debt Advisory services. Rits Capital's Investment Banking is your gateway to precision, strategy, and sustainable financial triumphs – because every financial move is a step towards your success.  
@@ -110,13 +110,13 @@ const Investment = () => {
        <Div className="col-lg-6">
          <Spacing lg='0' md='45'/>
          <Div className="cs-section_heading cs-style1">
-           <h2 className="cs-section_title">    Valuation   </h2>
+           <h2 className="cs-section_title">    Private Equity  </h2>
            <Div className="cs-height_10 cs-height_lg_10" />
-           <h3 className="cs-section_subtitle">Precision in Appraisal   </h3>
+           <h3 className="cs-section_subtitle">Tailored Investment Solutions  </h3>
            <Div className="cs-height_5 cs-height_lg_5" />
            <Div className="cs-separator cs-accent_bg" />
            <Div className="cs-height_45 cs-height_lg_25" />
-           <p className="cs-m0">Rits Capital brings precision to the art of valuation. Our experts employ industry-leading methodologies to assess and optimize the worth of your assets or businesses. Attain clarity and make informed decisions with our meticulous valuation services.  
+           <p className="cs-m0">Discover bespoke investment solutions with Rits Capital's Private Equity expertise. We align your unique goals with lucrative opportunities, fostering growth, innovation, and sustained success. Partner with us to unlock the full potential of your private investments.
     </p>
            <Div className="cs-height_25 cs-height_lg_20" />
            {/* <p className="cs-m0">Ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit.</p> */}
@@ -127,6 +127,69 @@ const Investment = () => {
        <Div className="col-xl-5 col-lg-6 offset-xl-1">
          <Div className="cs-radius_15 cs-shine_hover_1">
            <img src="/images/h18.jpg" alt="Member" className="w-100" />
+         </Div>
+       </Div>
+     </Div>
+     
+   </Div>
+   <Spacing lg='80' md='80'/>
+
+   <Div className="container">
+     <Div className="row align-items-center">
+     
+       <Div className="col-lg-6">
+         <Spacing lg='0' md='45'/>
+         <Div className="cs-section_heading cs-style1">
+           <h2 className="cs-section_title">  SPAC Framework </h2>
+           <Div className="cs-height_10 cs-height_lg_10" />
+           <h3 className="cs-section_subtitle"> Optimize Your Financing
+  </h3>
+           <Div className="cs-height_5 cs-height_lg_5" />
+           <Div className="cs-separator cs-accent_bg" />
+           <Div className="cs-height_45 cs-height_lg_25" />
+           <p className="cs-m0">Optimize your financing strategies with Rits Capital's Debt Advisory services. We provide tailored solutions to address your capital needs and ensure optimal debt structuring, cost-effectiveness, and financial resilience. Manage the complex debt landscape with confidence and expertise.   
+  </p>
+           <Div className="cs-height_25 cs-height_lg_20" />
+           {/* <p className="cs-m0">Ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit.</p> */}
+           <Div className="cs-height_45 cs-height_lg_30" />
+           {/* <SocialWidget/> */}
+         </Div>
+       </Div>
+       <Div className="col-xl-5 col-lg-6 offset-xl-1">
+         <Div className="cs-radius_15 cs-shine_hover_1">
+           <img src="/images/h20.jpg" alt="Member" className="w-100" />
+         </Div>
+       </Div>
+     </Div>
+     
+   </Div>
+   <Spacing lg='80' md='80'/>
+
+   <Div className="container">
+     <Div className="row align-items-center">
+     
+       <Div className="col-lg-6">
+         <Spacing lg='0' md='45'/>
+         <Div className="cs-section_heading cs-style1">
+           <h2 className="cs-section_title"> Valuation
+   </h2>
+           <Div className="cs-height_10 cs-height_lg_10" />
+           <h3 className="cs-section_subtitle"> Precision in Appraisal
+  </h3>
+           <Div className="cs-height_5 cs-height_lg_5" />
+           <Div className="cs-separator cs-accent_bg" />
+           <Div className="cs-height_45 cs-height_lg_25" />
+           <p className="cs-m0">Rits Capital brings precision to the art of valuation. Our experts employ industry-leading methodologies to assess and optimize the worth of your assets or businesses. Achieve clarity and make informed decisions with our meticulous valuation services.
+  </p>
+           <Div className="cs-height_25 cs-height_lg_20" />
+           {/* <p className="cs-m0">Ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit.</p> */}
+           <Div className="cs-height_45 cs-height_lg_30" />
+           {/* <SocialWidget/> */}
+         </Div>
+       </Div>
+       <Div className="col-xl-5 col-lg-6 offset-xl-1">
+         <Div className="cs-radius_15 cs-shine_hover_1">
+           <img src="/images/h20.jpg" alt="Member" className="w-100" />
          </Div>
        </Div>
      </Div>
@@ -170,9 +233,10 @@ const Investment = () => {
        <Div className="col-lg-6">
          <Spacing lg='0' md='45'/>
          <Div className="cs-section_heading cs-style1">
-           <h2 className="cs-section_title">  Debt Products   </h2>
+           <h2 className="cs-section_title">  Debt Advisory   </h2>
            <Div className="cs-height_10 cs-height_lg_10" />
-           <h3 className="cs-section_subtitle"> Navigating Capital Markets    </h3>
+           <h3 className="cs-section_subtitle"> Optimize Your Financing
+  </h3>
            <Div className="cs-height_5 cs-height_lg_5" />
            <Div className="cs-separator cs-accent_bg" />
            <Div className="cs-height_45 cs-height_lg_25" />

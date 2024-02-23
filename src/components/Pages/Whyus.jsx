@@ -39,18 +39,11 @@ const Whyus = () => {
             >
               <Spacing lg="30" md="20" />
               <p className="cs-m0">
-                This is the main factor that sets us apart from our competition
-                and allows us to deliver a specialist business consultancy
-                service. Our team applies its wide-ranging experience to
-                determining. Through our years of experience, we’ve also learned
-                that while each channel.
+              Our Mission is to empower our clients through the delivery of precise, timely, and efficient investment banking services. 
               </p>
               <Spacing lg="15" md="15" />
               <p className="cs-m0">
-                This is the main factor that sets us apart from our competition
-                and allows us to deliver a specialist business consultancy
-                service. Our team applies its wide-ranging experience to
-                determining.
+              By providing strategic financial solutions, we equip our clients with the tools to make informed decisions, fostering the growth and success of their businesses on a global scale.
               </p>
               <Spacing lg="30" md="30" />
               <Div className="cs-separator cs-accent_bg"></Div>
@@ -71,18 +64,11 @@ const Whyus = () => {
             >
               <Spacing lg="30" md="20" />
               <p className="cs-m0">
-                This is the main factor that sets us apart from our competition
-                and allows us to deliver a specialist business consultancy
-                service. Our team applies its wide-ranging experience to
-                determining. Through our years of experience, we’ve also learned
-                that while each channel.
+              Our Vision is to emerge as a premier and highly regarded Investment Banking firm. We are dedicated to delivering expert financial solutions, strategic investment guidance, and unparalleled services tailored for a global clientele.
               </p>
               <Spacing lg="15" md="15" />
               <p className="cs-m0">
-                This is the main factor that sets us apart from our competition
-                and allows us to deliver a specialist business consultancy
-                service. Our team applies its wide-ranging experience to
-                determining.
+              Our aim is to be recognized as the foremost customer-centric firm, providing specialized expertise in investment banking, and ensuring financial success and growth for all our clients on the global stage.
               </p>
               <Spacing lg="30" md="30" />
               <Div className="cs-separator cs-accent_bg"></Div>

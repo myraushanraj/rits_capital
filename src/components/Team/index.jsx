@@ -13,12 +13,12 @@ export default function Team({memberImage, memberName, memberDesignation, member
         </Div>
         <Div className="cs-member_info">
           <h2 className="cs-member_name"><Link to="/team/team-details"><span className='highlight'>{memberName}</span></Link></h2>
-          <Div className="cs-member_designation">{memberDesignation}</Div>
+          <Div className="cs-member_designation" >{memberDesignation}</Div>
           <br />
           {Array.isArray(memberPoints) && memberPoints.length > 0 ? (
           <ul>
             {memberPoints.map((point, index) => (
-              <li key={index}>{point}</li>
+              <li className='points' key={index}>{point}</li>
             ))}
           </ul>
         ) : (
