@@ -1,6 +1,8 @@
 @import "../../scss/default/color_variable";
 .cs-fooer_main {
   padding: 95px 0 35px;
+  background: linear-gradient(121.23deg, #80e3a6, rgb(237 243 238 / 28%) 51.9%, #2db460);
+
 }
 
 .cs-footer_item {
@@ -27,7 +29,7 @@
       width: 35px;
     }
     &:not(:last-child) {
-      margin-bottom: 20px;
+      margin-bottom: 5px;
     }
   }
 }
@@ -186,3 +188,6 @@
   }
 }
 @media screen and (max-width: 767px) {}
+.cs-footer_item{
+  font-size: 14px;
+}

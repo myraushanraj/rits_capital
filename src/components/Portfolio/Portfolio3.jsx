@@ -28,7 +28,7 @@ export default function Portfolio3({title, subtitle, btnText, btnLink, imageUrl,
               </span>
             </Div>
           </Div>
-          <Div className="col-lg-5 offset-xl-1 ">
+          <Div className="col-lg-6 ">
             <Div className={hovered?"cs-portfolio_img active":"cs-portfolio_img"}>
               <h3 className="cs-portfolio_img_title">{category}</h3>
               <Div className="cs-portfolio_img_in cs-shine_hover_1 cs-radius_5 rounded-9" ><img src={imageUrl} alt="Portfolio" className="port" /></Div>

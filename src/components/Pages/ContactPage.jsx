@@ -6,8 +6,11 @@ import PageHeading from '../PageHeading';
 import SectionHeading from '../SectionHeading';
 import Spacing from '../Spacing';
 import ContactInfoWidget from '../Widget/ContactInfoWidget';
+import IconBox from '../IconBox';
 
-export default function ContactPage() {
+
+
+export default function ContactPage({withIcon}) {
   pageTitle('Contact Us');
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -19,7 +22,85 @@ export default function ContactPage() {
         bgSrc="/images/contact_hero_bg.jpeg"
         pageLinkText="Contact"
       />
-      <Spacing lg="150" md="80" />
+      {/* <Spacing lg='145' md='80'/> */}
+      <Div className="container">
+        <SectionHeading 
+          title='Our Presence' 
+          subtitle='' 
+          variant='cs-style1 text-center'
+        />
+        {/* <Spacing lg='90' md='45'/> */}
+        <Div className="row">
+          <Div className="contactt d-flex justify-content-between">
+          
+          <ul className="cs-menu_widget cs-style1 cs-mp0">
+        <h5>INDIA</h5>
+        <li>
+          {<span className='cs-accent_color'><Icon icon="material-symbols:add-call-rounded" /></span>}
+          +1 925 915 6637
+        </li>
+        <li>
+          {<span className='cs-accent_color'><Icon icon="mdi:envelope" /></span>}
+          rit@ritscapital.co
+        </li>
+        <li>
+          {<span className='cs-accent_color'><Icon icon="mdi:map-marker" /></span>}
+           SUITE 7000 CASPER
+      WY 82609, <br/>USA
+        </li>
+      </ul>
+      <ul className="cs-menu_widget cs-style1 cs-mp0">
+        <h5>UAE</h5>
+        <li>
+          {<span className='cs-accent_color'><Icon icon="material-symbols:add-call-rounded" /></span>}
+          +1 925 915 6637
+        </li>
+        <li>
+          {<span className='cs-accent_color'><Icon icon="mdi:envelope" /></span>}
+          rit@ritscapital.co
+        </li>
+        <li>
+          {<span className='cs-accent_color'><Icon icon="mdi:map-marker" /></span>}
+           SUITE 7000 CASPER
+      WY 82609, <br/>USA
+        </li>
+      </ul>
+      <ul className="cs-menu_widget cs-style1 cs-mp0">
+        <h5>US</h5>
+        <li>
+          {<span className='cs-accent_color'><Icon icon="material-symbols:add-call-rounded" /></span>}
+          +1 925 915 6637
+        </li>
+        <li>
+          {<span className='cs-accent_color'><Icon icon="mdi:envelope" /></span>}
+          rit@ritscapital.co
+        </li>
+        <li>
+          {<span className='cs-accent_color'><Icon icon="mdi:map-marker" /></span>}
+           SUITE 7000 CASPER
+      WY 82609, <br/>USA
+        </li>
+      </ul>
+
+            {/* <Spacing lg='30' md='30'/> */}
+          </Div>
+            <Spacing lg='30' md='30'/>
+
+          {/* <Div className="col-lg-4">
+            <h5>UAE</h5>
+          <ContactInfoWidget withIcon />
+
+            <Spacing lg='30' md='30'/>
+          </Div>
+          <Div className="col-lg-4">
+            <h5>US</h5>
+          <ContactInfoWidget withIcon />
+
+            <Spacing lg='30' md='30'/>
+          </Div> */}
+        </Div>
+      </Div>
+      {/* <Spacing lg="150" md="80" /> */}
       <Div className="container">
         <Div className="row">
           <Div className="col-lg-6">
@@ -27,9 +108,9 @@ export default function ContactPage() {
               title="Do you have a project <br/>in your mind?"
               subtitle="Getting Touch"
             />
-            <Spacing lg="55" md="30" />
+            {/* <Spacing lg="55" md="30" />
             <ContactInfoWidget withIcon />
-            <Spacing lg="0" md="50" />
+            <Spacing lg="0" md="50" /> */}
           </Div>
           <Div className="col-lg-6">
             <form action="#" className="row">
