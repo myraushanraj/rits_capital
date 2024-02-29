@@ -100,10 +100,10 @@ export default function ContactPage({withIcon}) {
           </Div> */}
         </Div>
       </Div>
-      {/* <Spacing lg="150" md="80" /> */}
-      <Div className="container">
+      <Spacing lg="50" md="80" />
+      <Div className="container text-center">
         <Div className="row">
-          <Div className="col-lg-6">
+          <Div className="col-lg-12">
             <SectionHeading
               title="Do you have a project <br/>in your mind?"
               subtitle="Getting Touch"
@@ -112,7 +112,7 @@ export default function ContactPage({withIcon}) {
             <ContactInfoWidget withIcon />
             <Spacing lg="0" md="50" /> */}
           </Div>
-          <Div className="col-lg-6">
+          <Div className="col-lg-8 mx-auto">
             <form action="#" className="row">
               <Div className="col-sm-6">
                 <label className="cs-primary_color">Full Name*</label>
