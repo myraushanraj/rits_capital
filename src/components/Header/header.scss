@@ -291,7 +291,7 @@
 }
 .cs-sticky_header_active {
   top: 0px;
-  background-color: $white;
+  background: linear-gradient(121.23deg, #b3e8c8, rgb(237, 243, 238) 51.9%, #1aeb6a);
 }
 
 // .cs-gescout_show {
@@ -758,4 +758,7 @@
 }
  .cs-main_header_in a{
   color: #666667;
+}
+.image{
+  border-radius: 0;
 }

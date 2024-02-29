@@ -95,8 +95,9 @@ address {
 
 img {
   border: 0;
+  // box-shadow: 2px 0 8px 3px gray;
   max-width: 100%;
-  // border-radius: 25px;
+  border-radius: 25px;
   height: auto;
 }
 
@@ -175,13 +176,13 @@ input, textarea {
   color: $primary;
   
 }
-.imagetop{
+// .imagetop{
   
-  position: absolute;
-  z-index: 99;
-  width: 100%;
-  height: auto;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-}
+//   position: absolute;
+//   z-index: 99;
+//   width: 100%;
+//   height: auto;
+//   left: 50%;
+//   top: 50%;
+//   transform: translate(-50%, -50%);
+// }

@@ -62,23 +62,23 @@ export default function AboutPage() {
           </Div>
           <Div className="col-lg-5 offset-xl-2">
             <img
-              src="/images/about_img_1.jpeg"
+              src="/images/h15.jpg"
               alt="About"
               className="w-100 cs-radius_15"
             />
             <Spacing lg="25" md="25" />
           </Div>
-          <Div className="col-lg-7">
+          <Div className="col-lg-6">
             <img
-              src="/images/about_img_2.jpeg"
+              src="/images/h18.jpg"
               alt="About"
               className="w-100 cs-radius_15"
             />
             <Spacing lg="25" md="25" />
           </Div>
-          <Div className="col-lg-5">
+          <Div className="col-lg-6">
             <img
-              src="/images/about_img_3.jpeg"
+              src="/images/h17.jpg"
               alt="About"
               className="w-100 cs-radius_15"
             />

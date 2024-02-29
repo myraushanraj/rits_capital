@@ -20,40 +20,53 @@ export default function Footer({copyrightText, logoSrc, logoAlt, text}) {
   ]
   const aboutMenu = [
     {
-      title: 'UI/UX design',
-      // href: '/service/service-details'
+      title: 'Home',
+      href: '/'
     },
     {
-      title: 'WP development',
-      // href: '/service/service-details'
+      title: 'Who we are',
+      href: '/about'
     },
     {
-      title: 'Digital marketing',
-      // href: '/service/service-details'
+      title: 'What we do',
+      href: '/Wealthmanagement'
+    },
+  
+    {
+      title: 'Why us',
+      href: '/Whyus'
     },
     {
-      title: 'React development',
-      // href: '/service/service-details'
+      title: 'Contact',
+      href: '/contact'
+    },
+    {
+      title: 'Blog',
+      href: '/blog'
     },
   ]
 
   
   const serviceMenu = [
     {
-      title: 'UI/UX design',
-      // href: '/service/service-details'
+      title: 'Wealth Management Service',
+      href: '/Wealthmanagement'
     },
     {
-      title: 'WP development',
-      // href: '/service/service-details'
+      title: 'Investment Banking',
+      href: '/Investment'
     },
     {
-      title: 'Digital marketing',
-      // href: '/service/service-details'
+      title: 'Financial Support Services',
+      href: '/Accounting'
     },
     {
-      title: 'React development',
-      // href: '/service/service-details'
+      title: 'Start-Up Incubation',
+      href: '/Acceleration'
+    },
+    {
+      title: 'Pre-IPO',
+      href: '/Preipo'
     },
   ]
 
@@ -62,12 +75,13 @@ export default function Footer({copyrightText, logoSrc, logoAlt, text}) {
       <Div className="cs-fooer_main">
         <Div className="container">
           <Div className="row">
-            <Div className="col-lg-2 col-sm-6">
+            <Div className="col-lg-3 col-sm-6">
               <Div className="cs-footer_item">
+                <div className="small" style={{ width:"40%",marginBottom:"1px"}} ><img src="/images/ritslogo1.png" alt="" /></div>
                 <TextWidget 
-                  logoSrc='/images/ritslogo1.png' 
-                  logoAlt='Logo'
-                  text ='Welcome to arino sed ut perspiciae omunde omnis iste natus error sitort voluptatem accusantium.'
+                  // logoSrc='/images/ritslogo1.png' 
+                  // logoAlt='Logo'
+                  text ='Rits Capital is an independent investment firm with offices in United States , India, United Kingdom, Singapore, Hong Kong and UAE.'
                 />
                 {/* <SocialWidget/> */}
               </Div>
@@ -79,25 +93,25 @@ export default function Footer({copyrightText, logoSrc, logoAlt, text}) {
             </Div>
             <Div className="col-lg-2 col-sm-6">
               <Div className="cs-footer_item">
-                <MenuWidget menuItems={aboutMenu} menuHeading='About Rits Capital'/>
+                <MenuWidget menuItems={aboutMenu} menuHeading='Quick Link'/>
               </Div>
             </Div>
-              <Div className="col-lg-2 col-sm-6">
-              <Div className="cs-footer_item">
-                <MenuWidget menuItems={serviceMenu} menuHeading='Services'/>
-              </Div>
-            </Div>
+            
             <Div className="col-lg-2 col-sm-6">
               <Div className="cs-footer_item">
                 <ContactInfoWidget title='Contact Us'/>
               </Div>
             </Div>
-            <Div className="col-lg-2 col-sm-6">
+            <Div className="col-lg-3 col-sm-6">
               <Div className="cs-footer_item">
                 <Newsletter 
                   title='Subscribe' 
-                  subtitle='At vero eos et accusamus et iusto odio as part dignissimos ducimus qui blandit.' 
-                  placeholder='example@gmail.com'
+                  subtitle='Want to know secret to grow your wealth
+
+                  Contact us Now +91 9810915695
+                  
+                 ' 
+                  placeholder=' support@ritscapital.com'
                 />
 
               </Div>

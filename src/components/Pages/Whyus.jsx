@@ -35,7 +35,7 @@ const Whyus = () => {
           <Div className="col-xl-6  col-lg-6">
             <SectionHeading
               title="Mission"
-              subtitle="Why Choose Us"
+              subtitle=""
             >
               <Spacing lg="30" md="20" />
               <p className="cs-m0">
@@ -60,7 +60,7 @@ const Whyus = () => {
           <Div className="col-xl-6  col-lg-6">
             <SectionHeading
               title="Vision"
-              subtitle="Why Choose Us"
+              subtitle=""
             >
               <Spacing lg="30" md="20" />
               <p className="cs-m0">
@@ -89,7 +89,7 @@ const Whyus = () => {
           </Div>
         </Div>
       </Div>
-      <Spacing lg="50" md="80" />
+      {/* <Spacing lg="50" md="80" />
       <Div className="container">
         <Div className="row">
           <Div className="col-xl-6 col-lg-6">
@@ -258,7 +258,7 @@ const Whyus = () => {
             <Spacing lg="0" md="40" />
           </Div>
         </Div>
-      </Div>
+      </Div> */}
       {/* End Why Choose Section */}
     </>
   )

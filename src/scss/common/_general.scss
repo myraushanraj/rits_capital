@@ -825,7 +825,8 @@ label {
   }
   .cs-separator {
     height: 2px;
-    width: 50px;
+    width: 48%;
+    // margin: 0 10%;
     border-radius: 2px;
   }
 }
@@ -1669,3 +1670,42 @@ label {
 }
 
 
+//wealth managementent service
+
+
+// .show .hide{
+//   height: 150px;
+//   width: 100%;
+//   display: flex;
+//   color:black;
+//   transition: all ease 1s;
+//   justify-content: space-between;
+//   align-items: center;
+//   position: absolute;
+//   bottom: 100px;
+//   opacity: 0;
+//   // padding: 0 10px;
+//   background: linear-gradient(transparent,white);
+// }
+.show ul{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+
+}
+// .show:hover .hide{
+//   opacity: 1;
+//   bottom: -120px;
+// }
+@media screen and (max-width: 575px) {
+  .contactt {
+display: flex;
+flex-direction: column;
+  }
+  .show ul{
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    gap: 10px;
+  
+  }
+}

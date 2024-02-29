@@ -10,13 +10,13 @@ export default function Portfolio2({title, subtitle, btnText, btnLink, imageUrl,
       <Div className="cs-gradient_shape" />
       <Div className="container">
         <Div className="row align-items-center">
-          <Div className="col-lg-5">
+          <Div className="col-lg-6">
             <Div className={hovered?"cs-portfolio_img active":"cs-portfolio_img"}>
               <h3 className="cs-portfolio_img_title">{category}</h3>
               <Div className="cs-portfolio_img_in cs-shine_hover_1 cs-radius_5"><img src={imageUrl} alt="Portfolio" className="port" /></Div>
             </Div>
           </Div>
-          <Div className="col-xl-6 col-lg-6 offset-xl-1">
+          <Div className="col-xl-6 col-lg-6 ">
             <Spacing lg='0' md='35'/>
             <Div className="cs-section_heading cs-style1">
               <h2 className="cs-section_title">{title}</h2>

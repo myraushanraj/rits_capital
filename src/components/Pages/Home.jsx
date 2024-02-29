@@ -97,10 +97,10 @@ export default function Home() {
   const portfolioData = [
     {
       title: 'Wealth Management Services',
-      subtitle: "With Rits Capital's Wealth Management Services, we guide you on your financial dreams from our experts. We boost your investment journey with our Portfolio Management Services (PMS) that meets your goals. Our Wealth Planning services are a roadmap for your financial success. With our team, you secure your future Insurance solutions and learn to manage your money wisely for flexibility. Explore new opportunities with our adaptable Lending Services. At Rits Capital, you attain wealth solutions and ensure your financial landscape is set for growth. W Your financial success pathway begins here.",
+      subtitle: "At Rits Capital, our primary goal is to assist clients in achieving their financial goals with a personalized approach to wealth management. We tailor our services to individual needs, focusing on maximizing returns while minimizing risks across various investment avenues. Our experienced team ensures strategic planning and rigorous analysis to align opportunities with clients' objectives and risk profiles.",
       btnText: 'See Details',
       btnLink: '/Wealthmanagement',
-      imageUrl: '/images/h3.jpg',
+      imageUrl: '/images/webicons/g14.gif',
       category: 'Web Development',
     },
     {
@@ -108,7 +108,7 @@ export default function Home() {
       subtitle: "Unlock the power of financial success with Rits Capital's Investment Banking expertise. From guiding Initial Public Offerings (IPOs) to managing Mergers and acquisitions (M&A), our seasoned team ensures strategic growth. Get access to funding with Private Equity solutions tailored to your vision. Our Valuation services provide clarity in the complex financial landscape. Seamlessly navigate Equity Capital Markets (ECM) with our advisory and secure your financial future with Debt Advisory services. Rits Capital's Investment Banking is your gateway to precision, strategy, and sustainable financial triumphs – because every financial move is a step towards your success. ",
       btnText: 'See Details',
       btnLink: '/Investment',
-      imageUrl: '/images/h4.jpg',
+      imageUrl: '/images/webicons/g25.gif',
       category: 'Branding',
     },
     {
@@ -116,7 +116,7 @@ export default function Home() {
       subtitle: "Experience financial precision with Rits Capital's comprehensive accounting services. Our experts bring accuracy and transparency to your financial records, ensuring compliance with Tax regulations. Dive into our Advisory Services for strategic financial guidance tailored to your goals. With Audit Support Services, trust in a meticulous review of your financial processes. Rits Capital is your trusted partner for holistic accounting solutions, crafting a financial landscape where accuracy, compliance, and strategic vision converge for sustained success. ",
       btnText: 'See Details',
       btnLink: '/Accounting',
-      imageUrl: '/images/h5.jpg',
+      imageUrl: '/images/webicons/g29.gif',
       category: 'UI Design',
     },
     {
@@ -124,7 +124,7 @@ export default function Home() {
       subtitle: "Fuel your business growth with Rits Capital's Acceleration services. Experience personalized mentorship and handholding that propels your venture to new heights. Navigate strategic roll-ups with our expert guidance, optimizing synergies for unparalleled success. Unlock a dynamic office space that fosters innovation and collaboration. At Rits Capital, we go beyond funding – we provide comprehensive Funding Support, ensuring your business has the financial backing it needs to thrive. Propel your journey with Rits Capital's Acceleration services, where mentorship, strategy, infrastructure, and funding converge for a transformative business trajectory. ",
       btnText: 'See Details',
       btnLink: '/Acceleration',
-      imageUrl: '/images/h6.jpg',
+      imageUrl: '/images/webicons/g34.gif',
       category: 'Apps Design',
     },
     {
@@ -132,7 +132,7 @@ export default function Home() {
       subtitle: "Embark on your Pre-IPO journey with Rits Capital, where unique opportunities await. Explore exclusive deals in unlisted shares, strategically curated to align with your investment goals. Dive into a diverse portfolio with baskets of unlisted shares, offering a tailored approach to wealth creation. Rits Capital's Pre-IPO expertise ensures that you stay ahead in the ever-evolving financial landscape, securing your position for success. Join us as we navigate the uncharted territories of unlisted shares, bringing you unparalleled opportunities and strategic investment avenues. Elevate your investment experience with Rits Capital's Pre-IPO offers. ",
       btnText: 'See Details',
       btnLink: '/Preipo',
-      imageUrl: '/images/h7.jpg',
+      imageUrl: '/images/webicons/g39.gif',
       category: 'Apps Design',
     },
 
@@ -362,7 +362,7 @@ export default function Home() {
       {/* Start Testimonial Section */}
       {/* <TestimonialSlider /> */}
       {/* End Testimonial Section */}
-      {/* <Spacing lg="150" md="80" /> */}
+      <Spacing lg="50" md="80" />
       <Div className="container">
         <FunFact2
           // data={funfaceData2}
@@ -371,7 +371,7 @@ export default function Home() {
         />
       </Div>
       {/* Start Blog Section */}
-      <Spacing lg="150" md="80" />
+      {/* <Spacing lg="150" md="80" />
       <Div className="cs-shape_wrap_4">
         <Div className="cs-shape_4"></Div>
         <Div className="cs-shape_4"></Div>
@@ -393,16 +393,17 @@ export default function Home() {
             </Div>
           </Div>
         </Div>
-      </Div>
+      </Div> */}
       {/* End Blog Section */}
 
       {/* Start MovingText Section */}
-      <Spacing lg="125" md="70" />
-      {/* <MovingText text="Our reputed world wide partners" /> */}
+      {/* <Spacing lg="125" md="70" />
+      <MovingText text="Our reputed world wide partners" />
       
       <MovingText2 data={serviceData1} />
-      <Spacing lg="105" md="70" />
+      <Spacing lg="105" md="70" /> */}
       {/* End MovingText Section */}
+      <Spacing lg="150" md="80" />
 
       {/* Start LogoList Section */}
       <Div className="container">
@@ -420,6 +421,8 @@ export default function Home() {
           bgSrc="/images/contactbg.avif"
         />
       </Div>
+      <Spacing lg="50" md="80" />
+
       {/* End CTA Section */}
     </>
   );
