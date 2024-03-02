@@ -11,12 +11,12 @@ const Accounting = () => {
    <>
    <PageHeading 
      title='Financial Support Services '
-     bgSrc='/images/team_hero_bg.jpeg'
+     bgSrc='/images/team_hero_bg.png'
      pageLinkText='Accounting '
    /><Spacing lg='150' md='80'/>
    <Div className="container">
      <Div className="row align-items-center">
-       <Div className="col-xl-6 col-lg-6">
+       <Div className="col-xl-6 col-lg-6 ">
          <Div className="cs-radius_15 cs-shine_hover_1">
            <img src="/images/webicons/g29.gif" alt="Member" className="w-100" />
          </Div>
@@ -44,7 +44,7 @@ const Accounting = () => {
    <Div className="container">
      <Div className="row align-items-center">
      
-       <Div className="col-lg-6">
+       <Div className="col-lg-6 order-md-1 order-2">
          <Spacing lg='0' md='45'/>
          <Div className="cs-section_heading cs-style1">
            <h2 className="cs-section_title"> Accounting Services​</h2>
@@ -60,7 +60,7 @@ const Accounting = () => {
            {/* <SocialWidget/> */}
          </Div>
        </Div>
-       <Div className="col-xl-6 col-lg-6 ">
+       <Div className="col-xl-6 col-lg-6 order-md-2 order-1">
          <Div className="cs-radius_15 cs-shine_hover_1">
            <img src="/images/webicons/g26.gif" alt="Member" className="w-100" />
          </Div>
@@ -99,7 +99,7 @@ const Accounting = () => {
    <Div className="container">
      <Div className="row align-items-center">
      
-       <Div className="col-lg-6">
+       <Div className="col-lg-6 order-md-1 order-2">
          <Spacing lg='0' md='45'/>
          <Div className="cs-section_heading cs-style1">
            <h2 className="cs-section_title">Advisory Services​ </h2>
@@ -115,7 +115,7 @@ const Accounting = () => {
            {/* <SocialWidget/> */}
          </Div>
        </Div>
-       <Div className="col-xl-6 col-lg-6 ">
+       <Div className="col-xl-6 col-lg-6 order-md-2 order-1">
          <Div className="cs-radius_15 cs-shine_hover_1">
            <img src="/images/webicons/g30.gif" alt="Member" className="w-100" />
          </Div>
@@ -131,7 +131,7 @@ const Accounting = () => {
            <img src="/images/webicons/g28.gif" alt="Member" className="w-100" />
          </Div>
        </Div>
-       <Div className="col-lg-6 ">
+       <Div className="col-lg-6">
          <Spacing lg='0' md='45'/>
          <Div className="cs-section_heading cs-style1">
            <h2 className="cs-section_title">Audit Support Services​</h2>

@@ -14,44 +14,10 @@ const Wealthmanagement = () => {
    <>
    <PageHeading 
      title='Wealth Management'
-     bgSrc='/images/team_hero_bg.jpeg'
+     bgSrc='/images/team_hero_bg.png'
      pageLinkText='Wealth Management Service'
    />
-     {/* <Spacing lg='145' md='80'/>
-      <Div className="container">
-        <SectionHeading 
-          title='Design working process' 
-          subtitle='UI/UX Design' 
-          variant='cs-style1 text-center'
-        />
-        <Spacing lg='90' md='45'/>
-        <Div className="row">
-          <Div className="col-lg-4">
-            <IconBox
-              icon='/images/sa'
-              title='Sketching'
-              subtitle='Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium also a doloremque laudantium, totam remain beatae vitae dictaro enim ipsam sunt explicabo.'
-            />
-            <Spacing lg='30' md='30'/>
-          </Div>
-          <Div className="col-lg-4">
-            <IconBox
-              icon='/images/webicons/Debt Raising.png'
-              title='Wireframing'
-              subtitle='Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium also a doloremque laudantium, totam remain beatae vitae dictaro enim ipsam sunt explicabo.'
-            />
-            <Spacing lg='30' md='30'/>
-          </Div>
-          <Div className="col-lg-4">
-            <IconBox
-              icon='/images/icons/service_icon_3.svg'
-              title='Prototyping'
-              subtitle='Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium also a doloremque laudantium, totam remain beatae vitae dictaro enim ipsam sunt explicabo.'
-            />
-            <Spacing lg='30' md='30'/>
-          </Div>
-        </Div>
-      </Div> */}
+   
    <Spacing lg='80' md='80'/>
    <Div className="container">
      <Div className="row align-items-center">
@@ -87,7 +53,7 @@ const Wealthmanagement = () => {
    <Div className="container">
      <Div className="row align-items-center">
      
-       <Div className="col-lg-6">
+       <Div className="col-lg-6 order-md-1 order-2">
          <Spacing lg='0' md='45'/>
          <Div className="cs-section_heading cs-style1">
            <h2 className="cs-section_title">Portfolio Management Services (PMS)</h2>
@@ -104,7 +70,7 @@ const Wealthmanagement = () => {
            {/* <SocialWidget/> */}
          </Div>
        </Div>
-       <Div className="col-xl-6 col-lg-6 ">
+       <Div className="col-xl-6 col-lg-6 order-md-2 order-1">
          {/* <Div className="cs-radius_15 cs-shine_hover_1"> */}
            <img src="images/webicons/g4.gif" alt="Member" className="w-100" />
          {/* </Div> */}
@@ -116,7 +82,7 @@ const Wealthmanagement = () => {
 
    <Div className="container">
      <Div className="row align-items-center">
-       <Div className="col-xl-6 col-lg-6">
+       <Div className="col-xl-6 col-lg-6 ">
          {/* <Div className="cs-radius_15 cs-shine_hover_1"> */}
            <img src="/images/webicons/g5.gif" alt="Member" className="w-100" />
          {/* </Div> */}
@@ -156,7 +122,7 @@ const Wealthmanagement = () => {
    <Div className="container">
      <Div className="row align-items-center">
      
-       <Div className="col-lg-6">
+       <Div className="col-lg-6 order-md-1 order-2">
          <Spacing lg='0' md='45'/>
          <Div className="cs-section_heading cs-style1 show ">
            <h2 className="cs-section_title">Real Estate Investment </h2>
@@ -190,7 +156,7 @@ const Wealthmanagement = () => {
            {/* <SocialWidget/> */}
          </Div>
        </Div>
-       <Div className="col-xl-6 col-lg-6">
+       <Div className="col-xl-6 col-lg-6  order-md-2 order-1">
          {/* <Div className="cs-radius_15 cs-shine_hover_1"> */}
          <img src="/images/webicons/g6.gif" alt="Member" className="w-100" />
 
@@ -209,7 +175,7 @@ const Wealthmanagement = () => {
 
          {/* </Div> */}
        </Div>
-       <Div className="col-lg-6">
+       <Div className="col-lg-6 ">
          <Spacing lg='0' md='45'/>
          <Div className="cs-section_heading cs-style1 show">
            <h2 className="cs-section_title">SME IPO Investment </h2>
@@ -257,7 +223,7 @@ Investing in Pre-IPO opportunities with Rits Capital offers investors a unique c
 <Div className="container">
   <Div className="row align-items-center">
   
-    <Div className="col-lg-6">
+    <Div className="col-lg-6 order-md-1 order-2">
       <Spacing lg='0' md='45'/>
       <Div className="cs-section_heading cs-style1 show ">
         <h2 className="cs-section_title">Pre-IPO Investment  </h2>
@@ -265,7 +231,7 @@ Investing in Pre-IPO opportunities with Rits Capital offers investors a unique c
         {/* <Div className="cs-height_10 cs-height_lg_10" /> */}
            <h3 className="cs-section_subtitle">Unlocking Growth Potential
 </h3>
-           <Div className="cs-height_5 cs-height_lg_5" />
+           <Div className="cs-height_5 cs-height_lg_5 " />
            <div className="d-flex align-items-center"><Div className="cs-separator cs-accent_bg mx-1" />◈<Div className="cs-separator cs-accent_bg mx-1" /></div>
            <Div className="cs-height_45 cs-height_lg_25" />
            <ul><li>Stringent  Selection</li>
@@ -282,7 +248,7 @@ Investing in Pre-IPO opportunities with Rits Capital offers investors a unique c
         {/* <SocialWidget/> */}
       </Div>
     </Div>
-    <Div className="col-xl-6 col-lg-6">
+    <Div className="col-xl-6 col-lg-6  order-md-2 order-1">
       {/* <Div className="cs-radius_15 cs-shine_hover_1"> */}
         <img src="images/webicons/g8.gif" alt="Member" className="w-100" />
       {/* </Div> */}
