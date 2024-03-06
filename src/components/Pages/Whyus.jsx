@@ -12,7 +12,7 @@ const Whyus = () => {
     <>
     <PageHeading 
         title='Why us'
-        bgSrc='/images/service_hero_bg.jpeg'
+        bgSrc='/images/service_hero_bg.png'
         pageLinkText="Why us"
       />
       {/* <Spacing lg='145' md='80'/> */}
@@ -57,7 +57,7 @@ const Whyus = () => {
       <Div className="container">
         <Div className="row">
           
-          <Div className="col-xl-6  col-lg-6">
+          <Div className="col-xl-6  col-lg-6 order-md-1 order-2">
             <SectionHeading
               title="Vision"
               subtitle=""
@@ -75,7 +75,7 @@ const Whyus = () => {
               <Spacing lg="25" md="0" />
             </SectionHeading>
           </Div>
-          <Div className="col-xl-6 col-lg-6 ">
+          <Div className="col-xl-6 col-lg-6 order-md-2 order-1 ">
             <Div className="cs-image_layer cs-style1">
               <Div className="cs-image_layer_in">
                 <img

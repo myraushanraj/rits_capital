@@ -45,7 +45,7 @@ const Preipo = () => {
    <Div className="container">
      <Div className="row align-items-center">
      
-       <Div className="col-lg-6">
+       <Div className="col-lg-6 order-md-1 order-2">
          <Spacing lg='0' md='45'/>
          <Div className="cs-section_heading cs-style1">
            <h2 className="cs-section_title">Unlisted Shares </h2>
@@ -61,7 +61,7 @@ const Preipo = () => {
            {/* <SocialWidget/> */}
          </Div>
        </Div>
-       <Div className="col-xl-6 col-lg-6 ">
+       <Div className="col-xl-6 col-lg-6 order-md-2 order-1">
          <Div className="cs-radius_15 cs-shine_hover_1">
            <img src="/images/webicons/g36.gif" alt="Member" className="w-100" />
          </Div>
@@ -78,7 +78,7 @@ const Preipo = () => {
            <img src="/images/webicons/g38.gif" alt="Member" className="w-100" />
          </Div>
        </Div>
-       <Div className="col-lg-6 ">
+       <Div className="col-lg-6  ">
          <Spacing lg='0' md='45'/>
          <Div className="cs-section_heading cs-style1">
            <h2 className="cs-section_title">Deals </h2>
@@ -102,7 +102,7 @@ const Preipo = () => {
    <Div className="container">
      <Div className="row align-items-center">
      
-       <Div className="col-lg-6">
+       <Div className="col-lg-6 order-md-1 order-2">
          <Spacing lg='0' md='45'/>
          <Div className="cs-section_heading cs-style1">
            <h2 className="cs-section_title">Baskets </h2>
@@ -118,7 +118,7 @@ const Preipo = () => {
            {/* <SocialWidget/> */}
          </Div>
        </Div>
-       <Div className="col-xl-6 col-lg-6 ">
+       <Div className="col-xl-6 col-lg-6 order-md-2 order-1">
          <Div className="cs-radius_15 cs-shine_hover_1">
            <img src="/images/webicons/g18(1).gif" alt="Member" className="w-100" />
          </Div>

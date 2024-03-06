@@ -23,9 +23,9 @@ export default function TeamSlider() {
     },
     {
       memberImage: '/images/member_2.jpeg',
-      memberName: 'ROUNAK MISHRA ',
+      memberName: 'Rounak Mishra ',
       memberDesignation: 'Wealth Manager',
-      memberPoints: ['Ex Edelweiss, Rounak is an Experienced UHNI(Affluent) Wealth Manager with a demonstrated history of working in the financial services and capital Markets.','Managed the AUM of 300 Cr+ across multiple asset classes for Individuals, corporates, and family offices.','Skilled in Strategic planning, Wealth consulting, Capital raising, and pre-IPO investments. '],
+      memberPoints: ['Ex edelweiss & A certified finance professional from KPMG India, Rounak is an experienced UHNI(Affluent) wealth manager with a demonstrated history of working in the financial services and capital Markets.','Managing the AUM of 1500Cr+ across multiple asset classes for Individuals, corporates, institutions and family offices.','Skilled in strategic planning, equity research via macro top down approach, wealth consulting, capital raising, and pre-IPO investments.  ','Delivered the phenomenal returns of 8X and 112% in a year in pre-IPO and listed equity investments respectively.'],
       memberSocial: {
         linkedin: '/',
         twitter: '/',

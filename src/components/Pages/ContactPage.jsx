@@ -31,13 +31,13 @@ export default function ContactPage({withIcon}) {
         />
         {/* <Spacing lg='90' md='45'/> */}
         <Div className="row">
-          <Div className="contactt d-flex justify-content-between">
+          <Div className="contactt d-flex justify-content-evenly">
           
           <ul className="cs-menu_widget cs-style1 cs-mp0">
         <h5>INDIA</h5>
         <li>
           {<span className='cs-accent_color'><Icon icon="material-symbols:add-call-rounded" /></span>}
-          +1 925 915 6637
+          +919711996998
         </li>
         <li>
           {<span className='cs-accent_color'><Icon icon="mdi:envelope" /></span>}
@@ -45,11 +45,10 @@ export default function ContactPage({withIcon}) {
         </li>
         <li>
           {<span className='cs-accent_color'><Icon icon="mdi:map-marker" /></span>}
-           SUITE 7000 CASPER
-      WY 82609, <br/>USA
+          A-96, Sector-63, noida (VB), india
         </li>
       </ul>
-      <ul className="cs-menu_widget cs-style1 cs-mp0">
+      {/* <ul className="cs-menu_widget cs-style1 cs-mp0">
         <h5>UAE</h5>
         <li>
           {<span className='cs-accent_color'><Icon icon="material-symbols:add-call-rounded" /></span>}
@@ -64,7 +63,7 @@ export default function ContactPage({withIcon}) {
            SUITE 7000 CASPER
       WY 82609, <br/>USA
         </li>
-      </ul>
+      </ul> */}
       <ul className="cs-menu_widget cs-style1 cs-mp0">
         <h5>US</h5>
         <li>

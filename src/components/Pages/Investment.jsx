@@ -11,7 +11,7 @@ const Investment = () => {
    <>
    <PageHeading 
      title='Investment Banking'
-     bgSrc='/images/team_hero_bg.jpeg'
+     bgSrc='/images/team_hero_bg.png'
      pageLinkText='Investment Banking'
    />
    <Spacing lg='150' md='80'/>
@@ -47,7 +47,7 @@ const Investment = () => {
    <Div className="container">
      <Div className="row align-items-center">
      
-       <Div className="col-lg-6">
+       <Div className="col-lg-6 order-md-1 order-2">
          <Spacing lg='0' md='45'/>
          <Div className="cs-section_heading cs-style1">
            <h2 className="cs-section_title">  IPO  </h2>
@@ -64,7 +64,7 @@ const Investment = () => {
            {/* <SocialWidget/> */}
          </Div>
        </Div>
-       <Div className="col-xl-6 col-lg-6 ">
+       <Div className="col-xl-6 col-lg-6 order-md-2 order-1 ">
          <Div className="cs-radius_15 cs-shine_hover_1">
            <img src="/images/webicons/g24.gif" alt="Member" className="w-100" />
          </Div>
@@ -107,7 +107,7 @@ const Investment = () => {
    <Div className="container">
      <Div className="row align-items-center">
      
-       <Div className="col-lg-6">
+       <Div className="col-lg-6 order-md-1 order-2">
          <Spacing lg='0' md='45'/>
          <Div className="cs-section_heading cs-style1">
            <h2 className="cs-section_title">    Private Equity  </h2>
@@ -124,7 +124,7 @@ const Investment = () => {
            {/* <SocialWidget/> */}
          </Div>
        </Div>
-       <Div className="col-xl-6 col-lg-6 ">
+       <Div className="col-xl-6 col-lg-6 order-md-2 order-1">
          <Div className="cs-radius_15 cs-shine_hover_1">
            <img src="/images/webicons/g23.gif"alt="Member" className="w-100" />
          </Div>
@@ -143,7 +143,7 @@ const Investment = () => {
         <img src="/images/webicons/g21.gif" alt="Member" className="w-100" />
       </Div>
     </Div>
-    <Div className="col-lg-6 ">
+    <Div className="col-lg-6">
       <Spacing lg='0' md='45'/>
       <Div className="cs-section_heading cs-style1">
         <h2 className="cs-section_title">   Valuation </h2>
@@ -167,7 +167,7 @@ const Investment = () => {
    <Div className="container">
      <Div className="row align-items-center">
      
-       <Div className="col-lg-6">
+       <Div className="col-lg-6 order-md-1 order-2">
          <Spacing lg='0' md='45'/>
          <Div className="cs-section_heading cs-style1">
            <h2 className="cs-section_title">ECM Advisory </h2>
@@ -185,7 +185,7 @@ const Investment = () => {
            {/* <SocialWidget/> */}
          </Div>
        </Div>
-       <Div className="col-xl-6 col-lg-6 ">
+       <Div className="col-xl-6 col-lg-6 order-md-2 order-1">
          <Div className="cs-radius_15 cs-shine_hover_1">
            <img src="/images/webicons/g12.gif"alt="Member" className="w-100" />
          </Div>
@@ -202,7 +202,7 @@ const Investment = () => {
         <img src="/images/webicons/g13.gif" alt="Member" className="w-100" />
       </Div>
     </Div>
-    <Div className="col-lg-6 ">
+    <Div className="col-lg-6">
       <Spacing lg='0' md='45'/>
       <Div className="cs-section_heading cs-style1">
         <h2 className="cs-section_title"> Debt Advisory </h2>
@@ -226,7 +226,7 @@ const Investment = () => {
    <Div className="container">
      <Div className="row align-items-center">
      
-       <Div className="col-lg-6">
+       <Div className="col-lg-6 order-md-1 order-2">
          <Spacing lg='0' md='45'/>
          <Div className="cs-section_heading cs-style1">
            <h2 className="cs-section_title">  SPAC</h2>
@@ -243,7 +243,7 @@ const Investment = () => {
            {/* <SocialWidget/> */}
          </Div>
        </Div>
-       <Div className="col-xl-6 col-lg-6 ">
+       <Div className="col-xl-6 col-lg-6 order-md-2 order-1">
          <Div className="cs-radius_15 cs-shine_hover_1">
            <img src="/images/webicons/g19.gif"alt="Member" className="w-100" />
          </Div>

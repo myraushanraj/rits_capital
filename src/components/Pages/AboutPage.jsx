@@ -37,7 +37,7 @@ export default function AboutPage() {
       {/* Start Page Heading Section */}
       <PageHeading
         title="About Us"
-        bgSrc="images/about_hero_bg.jpeg"
+        bgSrc="images/about_hero_bg.png"
         pageLinkText="About Us"
       />
       {/* End Page Heading Section */}
@@ -107,7 +107,7 @@ export default function AboutPage() {
             <Div className="cs-image_layer cs-style1">
               <Div className="cs-image_layer_in">
                 <img
-                  src="/images/h34.jpg"
+                  src="/images/h30.jpg"
                   alt="About"
                   className="w-100 cs-radius_15"
                 />
@@ -118,7 +118,7 @@ export default function AboutPage() {
           <Div className="col-xl-5 offset-xl-1 col-lg-6">
             <SectionHeading
               title="Qualified Professionals"
-              subtitle="Why Choose Us"
+              subtitle=""
             >
               <Spacing lg="30" md="20" />
               <p className="cs-m0">
@@ -143,7 +143,7 @@ export default function AboutPage() {
       <Div className="container">
         <Div className="row">
           
-          <Div className="col-xl-5 col-lg-6">
+          <Div className="col-xl-5 col-lg-6 order-md-1 order-2">
             <SectionHeading
               title="With Global Presence"
               subtitle="Why Choose Us"
@@ -164,11 +164,11 @@ export default function AboutPage() {
               <Spacing lg="25" md="0" />
             </SectionHeading>
           </Div>
-          <Div className="col-xl-6 offset-xl-1 col-lg-6 ">
+          <Div className="col-xl-6 offset-xl-1 col-lg-6 order-md-2 order-1  ">
             <Div className="cs-image_layer cs-style1">
               <Div className="cs-image_layer_in">
                 <img
-                  src="/images/h35.jpg"
+                  src="/images/h8.jpg"
                   alt="About"
                   className="w-100 cs-radius_15"
                 />
@@ -181,11 +181,11 @@ export default function AboutPage() {
       <Spacing lg="100" md="80" />
       <Div className="container">
         <Div className="row">
-          <Div className="col-xl-6 col-lg-6">
+          <Div className="col-xl-6 col-lg-6 ">
             <Div className="cs-image_layer cs-style1">
               <Div className="cs-image_layer_in">
                 <img
-                  src="/images/h36.jpg"
+                  src="/images/h23.jpg"
                   alt="About"
                   className="w-100 cs-radius_15"
                 />
@@ -193,10 +193,10 @@ export default function AboutPage() {
             </Div>
             <Spacing lg="0" md="40" />
           </Div>
-          <Div className="col-xl-5 offset-xl-1 col-lg-6">
+          <Div className="col-xl-5 offset-xl-1 col-lg-6 ">
             <SectionHeading
               title="Providing all in One Solutions"
-              subtitle="Why Choose Us"
+              subtitle=""
             >
               <Spacing lg="30" md="20" />
               <p className="cs-m0 ">
@@ -243,6 +243,7 @@ export default function AboutPage() {
           bgSrc="/images/contactbg.avif"
         />
       </Div>
+      <Spacing lg="50" md="80" />
       {/* End CTA Section */}
     </>
   );
