@@ -27,12 +27,28 @@ import Accounting from "./components/Pages/Accounting";
 import Acceleration from "./components/Pages/Acceleration";
 import Whyus from './components/Pages/Whyus';
 
+const External = ()=>{
+  let currentHeight = 0;
+  currentHeight = window.screen.width >600 ? window.screen.height - 142 : window.screen.height;
+  return(
+    <>
+   <iframe class="frame" src="https://myraushanraj.github.io/rits_investor/" name="preview-frame" frameborder="0" noresize="noresize" data-view="fullScreenPreview" allow="geolocation 'self'; autoplay 'self'" style={{height:`${currentHeight}px`}}>
+</iframe>
+    
+    </>
+  )
+}
+
 
 
 function App() {
   return (
     <>
       <Routes>
+      <Route
+            path="investor-symposium/"
+            element={<External />}
+          />
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route
@@ -87,7 +103,9 @@ function App() {
             path="case-study-showcase"
             element={<CaseStudyShowcaseHome />}
           />
+          
         </Route>
+        
         <Route path="*" element={<ErrorPage />} />
       </Routes>
     </>
