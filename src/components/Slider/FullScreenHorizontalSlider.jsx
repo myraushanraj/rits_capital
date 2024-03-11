@@ -45,7 +45,7 @@ export default function FullScreenHorizontalSlider({ data, btnText,
                                     // }}
                                     loop={true}
                                     autoplay={{
-                                        delay: 3000,
+                                        delay: 3500,
                                         disableOnInteraction: false,
                                       }}
                                   
