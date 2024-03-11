@@ -415,8 +415,8 @@ export default function Home() {
       {/* Start CTA Section */}
       <Div className="container">
         <Cta
-          title="Let’s disscuse make <br />something <i>cool</i> together"cta
-          btnText="Apply For Meeting"
+          title="Let’s disscuse make <br />something <i>grow</i> together"cta
+          btnText="Setup Free Meeting"
           btnLink="/contact"
           bgSrc="/images/contactbg.avif"
         />

@@ -116,7 +116,7 @@ export default function ContactPage({ withIcon }) {
     <>
       <PageHeading
         title="Contact Us"
-        bgSrc="/images/contact_hero_bg.jpeg"
+        bgSrc="/images/team_hero_bg.png"
         pageLinkText="Contact"
       />
       <div className="container">
@@ -139,7 +139,7 @@ export default function ContactPage({ withIcon }) {
                 <span className="cs-accent_color">
                   <Icon icon="mdi:envelope" />
                 </span>
-                rit@ritscapital.co
+                rit@ritscapital.com
               </li>
               <li>
                 <span className="cs-accent_color">
@@ -156,7 +156,7 @@ export default function ContactPage({ withIcon }) {
          </li>
          <li>
            {<span className='cs-accent_color'><Icon icon="mdi:envelope" /></span>}
-           rit@ritscapital.co
+           rit@ritscapital.com
          </li>
          <li>
            {<span className='cs-accent_color'><Icon icon="mdi:map-marker" /></span>}
@@ -176,7 +176,7 @@ export default function ContactPage({ withIcon }) {
                 <span className="cs-accent_color">
                   <Icon icon="mdi:envelope" />
                 </span>
-                rit@ritscapital.co
+                rit@ritscapital.com
               </li>
               <li>
                 <span className="cs-accent_color">

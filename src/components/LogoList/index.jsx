@@ -27,10 +27,11 @@ export default function LogoList() {
     {
       src: '/images/logo6.png', 
       alt:'Partner'
-    }, {
-      src: '/images/logo7.png', 
-      alt:'Partner'
     },
+    //  {
+    //   src: '/images/logo7.png', 
+    //   alt:'Partner'
+    // },
     {
       src: '/images/logo8.png', 
       alt:'Partner'

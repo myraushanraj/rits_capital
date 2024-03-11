@@ -11,7 +11,7 @@ const Preipo = () => {
    <>
    <PageHeading 
      title='Pre IPO '
-     bgSrc='/images/team_hero_bg.jpeg'
+     bgSrc='images/about_hero_bg.png'
      pageLinkText='Pre IPO '
    />
    <Spacing lg='150' md='80'/>
