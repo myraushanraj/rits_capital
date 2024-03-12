@@ -32,7 +32,7 @@ const External = ()=>{
   currentHeight = window.screen.width >600 ? window.screen.height - 142 : window.screen.height;
   return(
     <>
-   <iframe class="frame" src="https://myraushanraj.github.io/rits_investor/" name="preview-frame" frameborder="0" noresize="noresize" data-view="fullScreenPreview" allow="geolocation 'self'; autoplay 'self'" style={{height:`${currentHeight}px`}}>
+   <iframe className="frame" src="http://localhost/raushan/rits_investor/" name="preview-frame" frameBorder="0" noresize="noresize" data-view="fullScreenPreview" allow="geolocation 'self'; autoplay 'self'" style={{height:`${currentHeight}px`}}>
 </iframe>
     
     </>
