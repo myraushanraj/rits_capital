@@ -3,7 +3,7 @@ import Button from '../Button'
 import Div from '../Div'
 import Spacing from '../Spacing'
 
-export default function Portfolio2({title, subtitle, btnText, btnLink, imageUrl, category}) {
+export default function Portfolio2({title, subtitle, btnText, btnLink, imageUrl,subPoints, category}) {
   const [hovered, setHovered] = useState(false);
   return (
     <Div className="cs-portfolio cs-style2">
@@ -21,6 +21,15 @@ export default function Portfolio2({title, subtitle, btnText, btnLink, imageUrl,
             <Div className="cs-section_heading cs-style1">
               <h2 className="cs-section_title">{title}</h2>
               <h3 className="cs-section_subtitle">{subtitle}</h3>
+              {Array.isArray(subPoints) && subPoints.length > 0 ? (
+          <ul>
+            {subPoints.map((point, index) => (
+              <li className='subpoints' key={index}>{point}</li>
+            ))}
+          </ul>
+        ) : (
+          <p>No points available</p>
+        )}
 
               <Spacing lg='45' md='20'/>
               <span 

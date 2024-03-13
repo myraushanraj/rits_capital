@@ -41,7 +41,7 @@ class FunFact2 extends React.Component {
             <section className="funfacts-area ptb-120">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-3 col-sm-6">
+                        <div className="fan col-lg-3 col-sm-6">
                             <div className="single-funfact">
                                 <div className="icon">
                                 <img src="/images/webicons/workplace.png" alt="" />
@@ -71,7 +71,7 @@ class FunFact2 extends React.Component {
                             </div>
                         </div>
                         
-                        <div className="col-lg-3 col-sm-6">
+                        <div className="fan col-lg-3 col-sm-6">
                             <div className="single-funfact">
                                 <div className="icon">
                                 <img src="/images/webicons/data-management.png" alt="" />
@@ -102,7 +102,7 @@ class FunFact2 extends React.Component {
                             </div>
                         </div>
 
-                        <div className="col-lg-3 col-sm-6">
+                        <div className="fan col-lg-3 col-sm-6">
                             <div className="single-funfact">
                                 <div className="icon">
                                 <img src="/images/webicons/profit.png " alt="" />
@@ -133,7 +133,7 @@ class FunFact2 extends React.Component {
                             </div>
                         </div>
 
-                        <div className="col-lg-3 col-sm-6">
+                        <div className="fan col-lg-3 col-sm-6">
                             <div className="single-funfact">
                                 <div className="icon">
                                 <img src="/images/webicons/fixed-asset.png" alt="" />
