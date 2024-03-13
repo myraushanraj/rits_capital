@@ -66,7 +66,7 @@ const Investment = () => {
        </Div>
        <Div className="col-xl-6 col-lg-6 order-md-2 order-1 ">
          <Div className="cs-radius_15 cs-shine_hover_1">
-           <img src="/images/webicons/g24.gif" alt="Member" className="w-100" />
+           <img src="/images/animated/preipo.png" alt="Member" className="w-100" />
          </Div>
        </Div>
      </Div>
@@ -140,7 +140,7 @@ const Investment = () => {
   <Div className="row align-items-center">
     <Div className="col-xl-6 col-lg-6">
       <Div className="cs-radius_15 cs-shine_hover_1">
-        <img src="/images/webicons/g21.gif" alt="Member" className="w-100" />
+        <img src="/images/animated/valuation.png" alt="Member" className="w-100" />
       </Div>
     </Div>
     <Div className="col-lg-6">
@@ -187,7 +187,7 @@ const Investment = () => {
        </Div>
        <Div className="col-xl-6 col-lg-6 order-md-2 order-1">
          <Div className="cs-radius_15 cs-shine_hover_1">
-           <img src="/images/webicons/g12.gif"alt="Member" className="w-100" />
+           <img src="/images/animated/Advisory.png"alt="Member" className="w-100" />
          </Div>
        </Div>
      </Div>
@@ -199,7 +199,7 @@ const Investment = () => {
   <Div className="row align-items-center">
     <Div className="col-xl-6 col-lg-6">
       <Div className="cs-radius_15 cs-shine_hover_1">
-        <img src="/images/webicons/g13.gif" alt="Member" className="w-100" />
+        <img src="/images/animated/Debt.png" alt="Member" className="w-100" />
       </Div>
     </Div>
     <Div className="col-lg-6">

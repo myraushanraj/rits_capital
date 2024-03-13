@@ -51,7 +51,7 @@ class FunFact extends React.Component {
             <section className="funfacts-area ptb-120">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-3 col-sm-6">
+                        <div className="fan col-lg-3 col-sm-6">
                             <div className="single-funfact">
                                 <div className="icon">
                                 <img src="/images/webicons/profit.png" alt="" />
@@ -81,7 +81,7 @@ class FunFact extends React.Component {
                             </div>
                         </div>
                         
-                        <div className="col-lg-3 col-sm-6">
+                        <div className="fan col-lg-3 col-sm-6">
                             <div className="single-funfact">
                                 <div className="icon">
                                     <img src="/images/webicons/ipo.png" alt="" />
@@ -107,12 +107,12 @@ class FunFact extends React.Component {
                                     </VisibilitySensor>
                                     <span>%</span>
                                 </h3>
-                                <p>Average return on Pre-Ipo investments </p>
+                                <p>Average return on Pre-IPO investments </p>
                             </div>
                         </div>
 
-                        <div className="col-lg-3 -sm-6">
-                            <div className="single-funfact">
+                        <div className="fan col-lg-3 -sm-6">
+                            <div className="single-funfact mx-6">
                                 <div className="icon">
                                 <img src="/images/webicons/return-on-investment.png" alt="" />
                                     
@@ -141,13 +141,14 @@ class FunFact extends React.Component {
                             </div>
                         </div>
 
-                        <div className="col-lg-3 -sm-6">
+                        <div className="fan col-lg-3 -sm-6">
                             <div className="single-funfact">
                                 <div className="icon">
                                 <img src="/images/webicons/asset.png" alt="" />
                                     
                                 </div>
                                 <h3 className="odometer">
+                                <span>$</span>
                                     <VisibilitySensor
                                         onChange={this.onVisibilityChange}
                                         offset={{
@@ -159,13 +160,13 @@ class FunFact extends React.Component {
                                             start={0}
                                             end={
                                                 this.state.didViewCountUp
-                                                    ? 2000
+                                                    ? 250
                                                     : 0
                                             }
                                             duration={3}
                                         />
                                     </VisibilitySensor>
-                                    <span>Cr</span>
+                                    <span>Mn+</span>
                                 </h3>
                                 <p>Asset Under Management</p>
                             </div>

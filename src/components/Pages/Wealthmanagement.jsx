@@ -25,7 +25,7 @@ const Wealthmanagement = () => {
         
          <Div className="cs-radius_15 cs-shine_hover_1">
          {/* <img src="/images/bgcircle.jpg" alt=""  style={{  width: '80%', height: '80%', zIndex: -1 }}/> */}
-         <img src="/images/webicons/g14.gif" alt="Member"className="w-100"  />
+         <img src="/images/animated/wealth.png" alt="Member"className="w-100"  />
          </Div>
         
        </Div>
@@ -72,7 +72,7 @@ const Wealthmanagement = () => {
        </Div>
        <Div className="col-xl-6 col-lg-6 order-md-2 order-1">
          {/* <Div className="cs-radius_15 cs-shine_hover_1"> */}
-           <img src="images/webicons/g4.gif" alt="Member" className="w-100" />
+           <img src="/images/animated/pms.png" alt="Member" className="w-100" />
          {/* </Div> */}
        </Div>
      </Div>
@@ -158,7 +158,7 @@ const Wealthmanagement = () => {
        </Div>
        <Div className="col-xl-6 col-lg-6  order-md-2 order-1">
          {/* <Div className="cs-radius_15 cs-shine_hover_1"> */}
-         <img src="/images/webicons/g6.gif" alt="Member" className="w-100" />
+         <img src="/images/animated/realestate.png" alt="Member" className="w-100" />
 
             {/* </Div> */}
        </Div>
@@ -250,7 +250,7 @@ Investing in Pre-IPO opportunities with Rits Capital offers investors a unique c
     </Div>
     <Div className="col-xl-6 col-lg-6  order-md-2 order-1">
       {/* <Div className="cs-radius_15 cs-shine_hover_1"> */}
-        <img src="images/webicons/g8.gif" alt="Member" className="w-100" />
+        <img src="/images/animated/preipo.png" alt="Member" className="w-100" />
       {/* </Div> */}
     </Div>
   </Div>

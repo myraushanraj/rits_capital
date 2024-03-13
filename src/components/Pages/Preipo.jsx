@@ -19,7 +19,7 @@ const Preipo = () => {
      <Div className="row align-items-center">
        <Div className="col-xl-6 col-lg-6">
          <Div className="cs-radius_15 cs-shine_hover_1">
-           <img src="/images/webicons/g39.gif" alt="Member" className="w-100" />
+           <img src="/images/animated/preipo.png" alt="Member" className="w-100" />
          </Div>
        </Div>
        <Div className="col-lg-6 ">

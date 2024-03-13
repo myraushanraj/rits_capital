@@ -166,7 +166,7 @@ export default function Header({ variant }) {
                               to="Wealthmanagement"
                               onClick={() => setMobileToggle(false)}
                             >
-                              Wealth management service
+                              Wealth Management Service
                             </Link>
                           </li>
                           <li>
@@ -174,7 +174,7 @@ export default function Header({ variant }) {
                               to="Investment"
                               onClick={() => setMobileToggle(false)}
                             >
-                              Investment banking
+                              Investment Banking
                             </Link>
                           </li>
                           <li>
@@ -190,7 +190,7 @@ export default function Header({ variant }) {
                               to="Acceleration"
                               onClick={() => setMobileToggle(false)}
                             >
-                              Start-up Incubation
+                              Startup Incubation
                             </Link>
                           </li>
                           <li>
@@ -198,7 +198,7 @@ export default function Header({ variant }) {
                               to="Preipo"
                               onClick={() => setMobileToggle(false)}
                             >
-                              Pre ipo
+                              Pre-IPO
                             </Link>
                           </li>
                           {/* <li>
