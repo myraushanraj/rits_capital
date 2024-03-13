@@ -9,7 +9,7 @@ import SectionHeading from '../SectionHeading';
 import Spacing from '../Spacing';
 import FunFact2 from '../FunFact/FunFact2';
 import MovingText2 from '../MovingText/MovingText2';
-
+// import { FaWhatsapp } from "react-icons/fa";
 import Cta from '../Cta';
 import LogoList from '../LogoList';
 import MovingText from '../MovingText';
@@ -97,15 +97,24 @@ export default function Home() {
   const portfolioData = [
     {
       title: 'Wealth Management Services',
-      subtitle: "At Rits Capital, our primary goal is to assist clients in achieving their financial goals with a personalized approach to wealth management. We tailor our services to individual needs, focusing on maximizing returns while minimizing risks across various investment avenues. Our experienced team ensures strategic planning and rigorous analysis to align opportunities with clients' objectives and risk profiles.",
+      subtitle:"",
+      subPoints: [" Personalized wealth management services for individual needs.",
+      " Maximize returns while minimizing risks through strategic planning.",
+      " Rigorous analysis tailored to your financial objectives."
+    ],
       btnText: 'See Details',
       btnLink: '/Wealthmanagement',
-      imageUrl: '/images/webicons/g14.gif',
+      imageUrl: '/images/animated/wealth.png',
       category: 'Web Development',
     },
     {
       title: 'Investment Banking',
-      subtitle: "Unlock the power of financial success with Rits Capital's Investment Banking expertise. From guiding Initial Public Offerings (IPOs) to managing Mergers and acquisitions (M&A), our seasoned team ensures strategic growth. Get access to funding with Private Equity solutions tailored to your vision. Our Valuation services provide clarity in the complex financial landscape. Seamlessly navigate Equity Capital Markets (ECM) with our advisory and secure your financial future with Debt Advisory services. Rits Capital's Investment Banking is your gateway to precision, strategy, and sustainable financial triumphs – because every financial move is a step towards your success. ",
+      subtitle: "",
+      subPoints: [" Strategic growth through IPOs and M&As guidance.",
+      "Access tailored Private Equity solutions for funding including Equity and Debts Capital Markets.",
+      " Navigate with precision and sustainability to enable successful financial decisions"
+    ],
+  
       btnText: 'See Details',
       btnLink: '/Investment',
       imageUrl: '/images/webicons/g25.gif',
@@ -113,7 +122,12 @@ export default function Home() {
     },
     {
       title: 'Financial Support Services ',
-      subtitle: "Experience financial precision with Rits Capital's comprehensive accounting services. Our experts bring accuracy and transparency to your financial records, ensuring compliance with Tax regulations. Dive into our Advisory Services for strategic financial guidance tailored to your goals. With Audit Support Services, trust in a meticulous review of your financial processes. Rits Capital is your trusted partner for holistic accounting solutions, crafting a financial landscape where accuracy, compliance, and strategic vision converge for sustained success. ",
+      subtitle: "",
+      subPoints: [" Precision accounting: Ensure compliance with tax regulations.",
+      "  Tailored advisory: Strategic financial guidance for your goals.",
+      "  Meticulous audit support and holistic accounting solutions for accurate financial processes."
+    ],
+    
       btnText: 'See Details',
       btnLink: '/Accounting',
       imageUrl: '/images/webicons/g29.gif',
@@ -121,7 +135,12 @@ export default function Home() {
     },
     {
       title: 'Start-up Incubation ',
-      subtitle: "Fuel your business growth with Rits Capital's Acceleration services. Experience personalized mentorship and handholding that propels your venture to new heights. Navigate strategic roll-ups with our expert guidance, optimizing synergies for unparalleled success. Unlock a dynamic office space that fosters innovation and collaboration. At Rits Capital, we go beyond funding – we provide comprehensive Funding Support, ensuring your business has the financial backing it needs to thrive. Propel your journey with Rits Capital's Acceleration services, where mentorship, strategy, infrastructure, and funding converge for a transformative business trajectory. ",
+      subtitle: "",
+    
+      subPoints: ["Accelerate growth with personalized mentorship and strategic roll-ups.",
+      "  Access dynamic office space fostering innovation and collaboration.",
+      " Comprehensive funding support for thriving businesses for unparalleled success."
+    ],
       btnText: 'See Details',
       btnLink: '/Acceleration',
       imageUrl: '/images/webicons/g34.gif',
@@ -129,10 +148,15 @@ export default function Home() {
     },
     {
       title: 'Pre-IPO ',
-      subtitle: "Embark on your Pre-IPO journey with Rits Capital, where unique opportunities await. Explore exclusive deals in unlisted shares, strategically curated to align with your investment goals. Dive into a diverse portfolio with baskets of unlisted shares, offering a tailored approach to wealth creation. Rits Capital's Pre-IPO expertise ensures that you stay ahead in the ever-evolving financial landscape, securing your position for success. Join us as we navigate the uncharted territories of unlisted shares, bringing you unparalleled opportunities and strategic investment avenues. Elevate your investment experience with Rits Capital's Pre-IPO offers. ",
+      subtitle: "",
+   
+      subPoints: [" Discover exclusive unlisted share deals aligned with your  investment goals.",
+      " Diversify with tailored baskets of shares for wealth creation.",
+      " Explore unparalleled Pre-IPO opportunities and strategic investment avenues."
+    ],
       btnText: 'See Details',
       btnLink: '/Preipo',
-      imageUrl: '/images/webicons/g39.gif',
+      imageUrl: '/images/animated/preipo.png',
       category: 'Apps Design',
     },
 
@@ -200,6 +224,7 @@ export default function Home() {
              <Portfolio3
               title={item.title}
               subtitle={item.subtitle}
+              subPoints={item.subPoints}
               btnText={item.btnText}
               btnLink={item.btnLink}
               imageUrl={item.imageUrl}
@@ -214,6 +239,7 @@ export default function Home() {
             <Portfolio2
               title={item.title}
               subtitle={item.subtitle}
+              subPoints={item.subPoints}
               btnText={item.btnText}
               btnLink={item.btnLink}
               imageUrl={item.imageUrl}
@@ -415,14 +441,14 @@ export default function Home() {
       {/* Start CTA Section */}
       <Div className="container">
         <Cta
-          title="Let’s disscuse make <br />something <i>grow</i> together"cta
+          title="Let's discuss and take the journey <br/>to  <i>growth</i> together"cta
           btnText="Setup Free Meeting"
           btnLink="/contact"
           bgSrc="/images/contactbg.avif"
         />
       </Div>
       <Spacing lg="50" md="80" />
-
+   
       {/* End CTA Section */}
     </>
   );

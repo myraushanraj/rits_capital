@@ -46,13 +46,13 @@ export default function ShowcasePortfolioHome() {
       subtitle:"Experience financial precision with Rits Capital's comprehensive accounting services. Our experts bring accuracy and transparency to your financial records, ensuring compliance with Tax regulations. ",
     },
     {
-      title: 'Start-up Incubation',
+      title: 'Startup Incubation',
       imgUrl: '/images/b5.png',
       // href: '/case-study/case-study-details',
       subtitle:"Fuel your business growth with Rits Capital's Acceleration services. Experience personalized mentorship and handholding that propels your venture to new heights. Navigate strategic roll-ups with our expert guidance, optimizing synergies for unparalleled success. ",
     },
     {
-      title: 'Pre-Ipo',
+      title: 'Pre-IPO',
       imgUrl: '/images/b6.png',
       // href: '/case-study/case-study-details',
       subtitle:"Embark on your Pre-IPO journey with Rits Capital, where unique opportunities await. Explore exclusive deals in unlisted shares, strategically curated to align with your investment goals. ",

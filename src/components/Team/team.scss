@@ -2,6 +2,9 @@
 .cs-team.cs-style1 {
   overflow: hidden;
   position: relative;
+  // border: 2px solid black;
+  box-shadow: inset 5px 5px 10px rgba(105, 104, 104, 0.147) ,inset  -10px -10px 10px rgba(240, 239, 239, 0.299);
+
   .cs-member_thumb {
     border-radius: 15px;
     position: relative;
@@ -29,7 +32,7 @@
     left: 0;
     top: 0;
     border-radius: inherit;
-    background: linear-gradient(360deg, #2db460 0%, #fff 100%);
+    // background: linear-gradient(360deg, #2db460 0%, #fff 100%);
   }
   .cs-member_social {
     svg {

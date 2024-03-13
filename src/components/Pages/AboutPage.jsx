@@ -146,7 +146,7 @@ export default function AboutPage() {
           <Div className="col-xl-5 col-lg-6 order-md-1 order-2">
             <SectionHeading
               title="With Global Presence"
-              subtitle="Why Choose Us"
+              subtitle=""
             >
               <Spacing lg="30" md="20" />
               <p className="cs-m0">
@@ -224,8 +224,8 @@ export default function AboutPage() {
       <Spacing lg="145" md="80" />
       <Div className="container">
         <SectionHeading
-          title="Awesome team <br/>members"
-          subtitle="Our Team"
+          title="Our Team"
+          subtitle=""
           variant="cs-style1"
         />
         <Spacing lg="85" md="45" />
@@ -237,7 +237,7 @@ export default function AboutPage() {
       <Spacing lg="150" md="80" />
       <Div className="container">
         <Cta
-          title="Let’s disscuse make <br />something <i>grow</i> together"
+          title="Let's discuss and take the journey <br/>to  <i>growth</i> together"
           btnText="Setup Free Meeting"
           btnLink="/contact"
           bgSrc="/images/contactbg.avif"

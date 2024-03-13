@@ -1,4 +1,5 @@
 import { Route, Routes } from 'react-router-dom';
+
 import AboutPage from './components/Pages/AboutPage';
 import BlogPage from './components/Pages/BlogPage';
 import BlogDetailsPage from './components/Pages/BlogDetailsPage';
@@ -27,6 +28,8 @@ import Accounting from "./components/Pages/Accounting";
 import Acceleration from "./components/Pages/Acceleration";
 import Whyus from './components/Pages/Whyus';
 import { useEffect } from 'react';
+import { FaWhatsapp } from "react-icons/fa";
+
 
 const External = ()=>{
   let currentHeight = 0;
@@ -113,6 +116,9 @@ function App() {
         
         <Route path="*" element={<ErrorPage />} />
       </Routes>
+      <a  class="whats-app" href="https://api.whatsapp.com/send?phone=9810915695&text=Hello" target="_blank">
+      <FaWhatsapp />
+  </a>
     </>
   );
 }

@@ -145,7 +145,7 @@ export default function ContactPage({ withIcon }) {
                 <span className="cs-accent_color">
                   <Icon icon="mdi:map-marker" />
                 </span>
-                A-96, Sector-63, Noida (VB), India
+                A-96, Sector-63, Noida, India
               </li>
             </ul>
                  {/* <ul className="cs-menu_widget cs-style1 cs-mp0">
@@ -193,8 +193,8 @@ export default function ContactPage({ withIcon }) {
         <div className="row">
           <div className="col-lg-12">
             <SectionHeading
-              title="Welcome to Rits Capital"
-              subtitle="Getting Touch"
+              title="Contact Us"
+              subtitle="Get in Touch"
             />
           </div>
           <div className="col-lg-8 mx-auto">

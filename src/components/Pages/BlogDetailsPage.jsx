@@ -114,7 +114,7 @@ export default function BlogDetailsPage() {
       {/* Start CTA Section */}
       <Div className="container">
         <Cta 
-          title='Let’s disscuse make <br />something <i>grow</i> together' 
+         title="Let's discuss and take the journey <br/>to  <i>growth</i> together"
           btnText='Setup Free Meeting' 
           btnLink='/contact' 
           bgSrc='/images/cta_bg.jpeg'
