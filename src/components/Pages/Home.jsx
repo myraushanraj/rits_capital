@@ -117,7 +117,7 @@ export default function Home() {
   
       btnText: 'See Details',
       btnLink: '/Investment',
-      imageUrl: '/images/webicons/g25.gif',
+      imageUrl: '/images/animated/invest.png',
       category: 'Branding',
     },
     {
@@ -130,11 +130,11 @@ export default function Home() {
     
       btnText: 'See Details',
       btnLink: '/Accounting',
-      imageUrl: '/images/webicons/g29.gif',
+      imageUrl: '/images/animated/Finance 540.png',
       category: 'UI Design',
     },
     {
-      title: 'Start-up Incubation ',
+      title: 'Startup Incubation ',
       subtitle: "",
     
       subPoints: ["Accelerate growth with personalized mentorship and strategic roll-ups.",
@@ -143,7 +143,7 @@ export default function Home() {
     ],
       btnText: 'See Details',
       btnLink: '/Acceleration',
-      imageUrl: '/images/webicons/g34.gif',
+      imageUrl: '/images/animated/start540.png',
       category: 'Apps Design',
     },
     {
