@@ -119,6 +119,79 @@ export default function ContactPage({ withIcon }) {
         bgSrc="/images/team_hero_bg.png"
         pageLinkText="Contact"
       />
+      <Spacing lg="50" md="80" />
+      <div className="container text-center">
+        <div className="row">
+          <div className="col-lg-12">
+            <SectionHeading
+              title=""
+              subtitle="Get in Touch"
+            />
+          </div>
+          <div className="col-lg-8 mx-auto">
+            <form onSubmit={handleSubmit} action="#" className="row">
+              <div className="col-sm-6">
+                <label className="cs-primary_color">Full Name*</label>
+                <input
+                  type="text"
+                  name="name"
+                  value={formData.name}
+                  onChange={handleInputChange}
+                  className="cs-form_field"
+                />
+              </div>
+              <div className="col-sm-6">
+                <label className="cs-primary_color">Email*</label>
+                <input
+                  type="text"
+                  name="email"
+                  value={formData.email}
+                  onChange={handleInputChange}
+                  className="cs-form_field"
+                />
+              </div>
+              <div className="col-sm-6">
+                <label className="cs-primary_color">Linkedin*</label>
+                <input
+                  type="text"
+                  name="linkedin"
+                  value={formData.linkedin}
+                  onChange={handleInputChange}
+                  className="cs-form_field"
+                />
+              </div>
+              <div className="col-sm-6">
+                <label className="cs-primary_color">Mobile*</label>
+                <input
+                  type="tel"
+                  name="mobile"
+                  value={formData.mobile}
+                  onChange={handleInputChange}
+                  className="cs-form_field"
+                />
+              </div>
+              <div className="col-sm-12">
+                <label className="cs-primary_color">Message*</label>
+                <textarea
+                  name="message"
+                  value={formData.message}
+                  onChange={handleInputChange}
+                  cols="30"
+                  rows="7"
+                  className="cs-form_field"
+                ></textarea>
+              </div>
+              <div className="col-sm-12">
+                <button type="submit" className="cs-btn cs-style1">
+                  <span>Send Message</span>
+                  <Icon icon="bi:arrow-right" />
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <Spacing lg="50" md="80" />
       <div className="container">
         <SectionHeading
           title="Our Presence"
@@ -188,78 +261,7 @@ export default function ContactPage({ withIcon }) {
           </div>
         </div>
       </div>
-      <Spacing lg="50" md="80" />
-      <div className="container text-center">
-        <div className="row">
-          <div className="col-lg-12">
-            <SectionHeading
-              title="Contact Us"
-              subtitle="Get in Touch"
-            />
-          </div>
-          <div className="col-lg-8 mx-auto">
-            <form onSubmit={handleSubmit} action="#" className="row">
-              <div className="col-sm-6">
-                <label className="cs-primary_color">Full Name*</label>
-                <input
-                  type="text"
-                  name="name"
-                  value={formData.name}
-                  onChange={handleInputChange}
-                  className="cs-form_field"
-                />
-              </div>
-              <div className="col-sm-6">
-                <label className="cs-primary_color">Email*</label>
-                <input
-                  type="text"
-                  name="email"
-                  value={formData.email}
-                  onChange={handleInputChange}
-                  className="cs-form_field"
-                />
-              </div>
-              <div className="col-sm-6">
-                <label className="cs-primary_color">Linkedin*</label>
-                <input
-                  type="text"
-                  name="linkedin"
-                  value={formData.linkedin}
-                  onChange={handleInputChange}
-                  className="cs-form_field"
-                />
-              </div>
-              <div className="col-sm-6">
-                <label className="cs-primary_color">Mobile*</label>
-                <input
-                  type="tel"
-                  name="mobile"
-                  value={formData.mobile}
-                  onChange={handleInputChange}
-                  className="cs-form_field"
-                />
-              </div>
-              <div className="col-sm-12">
-                <label className="cs-primary_color">Message*</label>
-                <textarea
-                  name="message"
-                  value={formData.message}
-                  onChange={handleInputChange}
-                  cols="30"
-                  rows="7"
-                  className="cs-form_field"
-                ></textarea>
-              </div>
-              <div className="col-sm-12">
-                <button type="submit" className="cs-btn cs-style1">
-                  <span>Send Message</span>
-                  <Icon icon="bi:arrow-right" />
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
+     
       <Spacing lg="150" md="80" />
       <div className="cs-google_map">
         <iframe

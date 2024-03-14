@@ -35,11 +35,11 @@ export default function AboutPage() {
   return (
     <>
       {/* Start Page Heading Section */}
-      <PageHeading
+      {/* <PageHeading
         title="About Us"
         bgSrc="images/about_hero_bg.png"
         pageLinkText="About Us"
-      />
+      /> */}
       {/* End Page Heading Section */}
 
       {/* Start About Section */}
@@ -49,7 +49,7 @@ export default function AboutPage() {
           <Div className="col-xl-5 col-lg-7">
             <SectionHeading
               title="About Rits Capital"
-              subtitle="About Us"
+              subtitle=""
             >
               <Spacing lg="30" md="20" />
               <p className="cs-m0">
@@ -68,7 +68,7 @@ export default function AboutPage() {
             />
             <Spacing lg="25" md="25" />
           </Div>
-          <Div className="col-lg-6">
+          {/* <Div className="col-lg-6">
             <img
               src="/images/h18.jpg"
               alt="About"
@@ -83,7 +83,7 @@ export default function AboutPage() {
               className="w-100 cs-radius_15"
             />
             <Spacing lg="25" md="25" />
-          </Div>
+          </Div> */}
         </Div>
       </Div>
       <Spacing lg="75" md="55" />
@@ -100,14 +100,15 @@ export default function AboutPage() {
       {/* End Fun Fact Section */}
 
       {/* Start Why Choose Section */}
-      <Spacing lg="50" md="80" />
+      <Spacing lg="75" md="55" />
+      {/* <Spacing lg="50" md="80" /> */}
       <Div className="container">
         <Div className="row">
           <Div className="col-xl-6 col-lg-6">
             <Div className="cs-image_layer cs-style1">
               <Div className="cs-image_layer_in">
                 <img
-                  src="/images/h30.jpg"
+                  src="/images/h34.jpg"
                   alt="About"
                   className="w-100 cs-radius_15"
                 />
@@ -115,22 +116,19 @@ export default function AboutPage() {
             </Div>
             <Spacing lg="0" md="40" />
           </Div>
-          <Div className="col-xl-5 offset-xl-1 col-lg-6">
+          <Div className="col-xl-6  col-lg-6">
             <SectionHeading
-              title="Qualified Professionals"
+              title="Mission"
               subtitle=""
             >
               <Spacing lg="30" md="20" />
               <p className="cs-m0">
-              The team comprises of experienced professionals who are CPAs, FCCAs, ACAs, CMAs, CFAs, and MBAs and provide high-quality services.
+              Our Mission is to empower our clients through the delivery of precise, timely, and efficient investment banking services. 
               </p>
-              {/* <Spacing lg="15" md="15" />
+              <Spacing lg="15" md="15" />
               <p className="cs-m0">
-                This is the main factor that sets us apart from our competition
-                and allows us to deliver a specialist business consultancy
-                service. Our team applies its wide-ranging experience to
-                determining.
-              </p> */}
+              By providing strategic financial solutions, we equip our clients with the tools to make informed decisions, fostering the growth and success of their businesses on a global scale.
+              </p>
               <Spacing lg="30" md="30" />
               <Div className="cs-separator cs-accent_bg"></Div>
               <Spacing lg="25" md="0" />
@@ -138,37 +136,34 @@ export default function AboutPage() {
           </Div>
         </Div>
       </Div>
-      <Spacing lg="100" md="80" />
+      <Spacing lg="50" md="80" />
 
       <Div className="container">
         <Div className="row">
           
-          <Div className="col-xl-5 col-lg-6 order-md-1 order-2">
+          <Div className="col-xl-6  col-lg-6 order-md-1 order-2">
             <SectionHeading
-              title="With Global Presence"
+              title="Vision"
               subtitle=""
             >
               <Spacing lg="30" md="20" />
               <p className="cs-m0">
-              RITS Capital is an Investment banking firm with offices in the US, India, UK, and UAE, offering multi-disciplinary services.
+              Our Vision is to emerge as a premier and highly regarded Investment Banking firm. We are dedicated to delivering expert financial solutions, strategic investment guidance, and unparalleled services tailored for a global clientele.
               </p>
               <Spacing lg="15" md="15" />
-              {/* <p className="cs-m0">
-                This is the main factor that sets us apart from our competition
-                and allows us to deliver a specialist business consultancy
-                service. Our team applies its wide-ranging experience to
-                determining.
-              </p> */}
+              <p className="cs-m0">
+              Our aim is to be recognized as the foremost customer-centric firm, providing specialized expertise in investment banking, and ensuring financial success and growth for all our clients on the global stage.
+              </p>
               <Spacing lg="30" md="30" />
               <Div className="cs-separator cs-accent_bg"></Div>
               <Spacing lg="25" md="0" />
             </SectionHeading>
           </Div>
-          <Div className="col-xl-6 offset-xl-1 col-lg-6 order-md-2 order-1  ">
+          <Div className="col-xl-6 col-lg-6 order-md-2 order-1 ">
             <Div className="cs-image_layer cs-style1">
               <Div className="cs-image_layer_in">
                 <img
-                  src="/images/h8.jpg"
+                  src="/images/h35.jpg"
                   alt="About"
                   className="w-100 cs-radius_15"
                 />
@@ -178,50 +173,13 @@ export default function AboutPage() {
           </Div>
         </Div>
       </Div>
-      <Spacing lg="100" md="80" />
-      <Div className="container">
-        <Div className="row">
-          <Div className="col-xl-6 col-lg-6 ">
-            <Div className="cs-image_layer cs-style1">
-              <Div className="cs-image_layer_in">
-                <img
-                  src="/images/h23.jpg"
-                  alt="About"
-                  className="w-100 cs-radius_15"
-                />
-              </Div>
-            </Div>
-            <Spacing lg="0" md="40" />
-          </Div>
-          <Div className="col-xl-5 offset-xl-1 col-lg-6 ">
-            <SectionHeading
-              title="Providing all in One Solutions"
-              subtitle=""
-            >
-              <Spacing lg="30" md="20" />
-              <p className="cs-m0 ">
-              Our team is dedicated to meeting all of your business consulting needs with our all-in-one solution.
-              </p>
-              <Spacing lg="15" md="15" />
-              {/* <p className="cs-m0">
-                This is the main factor that sets us apart from our competition
-                and allows us to deliver a specialist business consultancy
-                service. Our team applies its wide-ranging experience to
-                determining.
-              </p> */}
-              <Spacing lg="30" md="30" />
-              <Div className="cs-separator cs-accent_bg"></Div>
-              <Spacing lg="25" md="0" />
-            </SectionHeading>
-          </Div>
-        </Div>
-      </Div>
-      <Spacing lg="100" md="80" />
+      {/* <Spacing lg="100" md="80" /> */}
      
       {/* End Why Choose Section */}
 
       {/* Start Team Section */}
-      <Spacing lg="145" md="80" />
+      {/* <Spacing lg="145" md="80" /> */}
+      <Spacing lg="75" md="55" />
       <Div className="container">
         <SectionHeading
           title="Our Team"
@@ -234,7 +192,8 @@ export default function AboutPage() {
       {/* End Team Section */}
 
       {/* Start CTA Section */}
-      <Spacing lg="150" md="80" />
+      {/* <Spacing lg="150" md="80" /> */}
+      <Spacing lg="75" md="55" />
       <Div className="container">
         <Cta
           title="Let's discuss and take the journey <br/>to  <i>growth</i> together"
