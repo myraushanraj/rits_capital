@@ -345,22 +345,22 @@ export default function Header({ variant }) {
           onClick={() => setSideHeaderToggle(!sideHeaderToggle)}
         />
         <Div className="cs-side_header_in">
-          <Div className="cs-side_header_shape" />
+          {/* <Div className="cs-side_header_shape" /> */}
           <Link className="cs-site_branding" to="/">
-            <img className='w-100 h-100 ' src="images/ritslogo2.png" alt="Logo" />
+            <img className='w-100 h-200 rounded-none ' src="images/ritslogo1.png" alt="Logo" />
           </Link>
-          <Div className="cs-side_header_box">
+          {/* <Div className="cs-side_header_box">
             <h2 className="cs-side_header_heading">
               Do you have a project in your <br /> mind? Keep connect us.
             </h2>
-          </Div>
+          </Div> */}
           <Div className="cs-side_header_box">
             <ContactInfoWidget title="Contact Us" withIcon />
           </Div>
           <Div className="cs-side_header_box">
             <Newsletter
               title="Subscribe"
-              subtitle="At vero eos et accusamus et iusto odio as part dignissimos ducimus qui blandit."
+              subtitle="Rits Capital is an independent investment firm with offices in United States , India, United Kingdom, Singapore, Hong Kong and UAE."
               placeholder="example@gmail.com"
             />
           </Div>
