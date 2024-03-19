@@ -34,7 +34,7 @@ export default function ShowcasePortfolioHome() {
       subtitle:"At Rits Capital, our primary goal is to assist clients in achieving their financial goals with a personalized approach to wealth management. We tailor our services to individual needs, focusing on maximizing returns while minimizing risks across various investment avenues. ",
     },
     {
-      title: 'Investement',
+      title: 'Investment',
       imgUrl: '/images/b3.png',
       // href: '/case-study/case-study-details',
       subtitle:"Unlock the power of financial success with Rits Capital's Investment Banking expertise. From guiding Initial Public Offerings (IPOs) to managing Mergers and acquisitions (M&A), our seasoned team ensures strategic growth. ",
