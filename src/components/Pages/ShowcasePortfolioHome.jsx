@@ -64,6 +64,8 @@ export default function ShowcasePortfolioHome() {
       heroSocialLinks={heroSocialLinks}
       socialLinksHeading="Follow Us"
       showcaseData={showcaseData}
+      
+      
     />
   );
 }

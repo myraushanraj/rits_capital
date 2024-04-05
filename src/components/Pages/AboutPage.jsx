@@ -62,7 +62,7 @@ export default function AboutPage() {
           </Div>
           <Div className="col-lg-5 offset-xl-2">
             <img
-              src="/images/h15.jpg"
+              src="/images/animated/about.png"
               alt="About"
               className="w-100 cs-radius_15"
             />
@@ -108,7 +108,7 @@ export default function AboutPage() {
             <Div className="cs-image_layer cs-style1">
               <Div className="cs-image_layer_in">
                 <img
-                  src="/images/h34.jpg"
+                  src="/images/animated/mission1.png"
                   alt="About"
                   className="w-100 cs-radius_15"
                 />
@@ -141,7 +141,7 @@ export default function AboutPage() {
       <Div className="container">
         <Div className="row">
           
-          <Div className="col-xl-6  col-lg-6 order-md-1 order-2">
+          <Div className="col-xl-6  col-lg-6 order-lg-1 order-2">
             <SectionHeading
               title="Vision"
               subtitle=""
@@ -159,11 +159,11 @@ export default function AboutPage() {
               <Spacing lg="25" md="0" />
             </SectionHeading>
           </Div>
-          <Div className="col-xl-6 col-lg-6 order-md-2 order-1 ">
+          <Div className="col-xl-6 col-lg-6 order-lg-2 order-1 ">
             <Div className="cs-image_layer cs-style1">
               <Div className="cs-image_layer_in">
                 <img
-                  src="/images/h35.jpg"
+                  src="/images/animated/mission2.png"
                   alt="About"
                   className="w-100 cs-radius_15"
                 />
@@ -186,7 +186,7 @@ export default function AboutPage() {
           subtitle=""
           variant="cs-style1"
         />
-        <Spacing lg="85" md="45" />
+        <Spacing lg="55" md="45" />
         <TeamSlider />
       </Div>
       {/* End Team Section */}
@@ -199,7 +199,7 @@ export default function AboutPage() {
           title="Let's discuss and take the journey <br/>to  <i>growth</i> together"
           btnText="Setup Free Meeting"
           btnLink="/contact"
-          bgSrc="/images/contactbg.avif"
+          bgSrc="/images/cta_bg_2.jpeg"
         />
       </Div>
       <Spacing lg="50" md="80" />

@@ -24,7 +24,7 @@ const Whyus = () => {
             <Div className="cs-image_layer cs-style1">
               <Div className="cs-image_layer_in">
                 <img
-                  src="/images/h30.jpg"
+                  src="/images/animated/whyus1.png"
                   alt="About"
                   className="w-100 cs-radius_15"
                 />
@@ -60,7 +60,7 @@ const Whyus = () => {
       <Div className="container">
         <Div className="row">
           
-          <Div className="col-xl-5 col-lg-6 order-md-1 order-2">
+          <Div className="col-xl-5 col-lg-6 order-lg-1 order-2">
             <SectionHeading
               title="With Global Presence"
               subtitle=""
@@ -81,11 +81,11 @@ const Whyus = () => {
               <Spacing lg="25" md="0" />
             </SectionHeading>
           </Div>
-          <Div className="col-xl-6 offset-xl-1 col-lg-6 order-md-2 order-1  ">
+          <Div className="col-xl-6 offset-xl-1 col-lg-6 order-lg-2 order-1  ">
             <Div className="cs-image_layer cs-style1">
               <Div className="cs-image_layer_in">
                 <img
-                  src="/images/h8.png"
+                  src="/images/animated/whyus2.png"
                   alt="About"
                   className="w-100 cs-radius_15"
                 />
@@ -103,7 +103,7 @@ const Whyus = () => {
             <Div className="cs-image_layer cs-style1">
               <Div className="cs-image_layer_in">
                 <img
-                  src="/images/h23.jpg"
+                  src="/images/animated/whyus3.png"
                   alt="About"
                   className="w-100 cs-radius_15"
                 />

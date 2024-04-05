@@ -10,26 +10,26 @@ const Investment = () => {
   return (
    <>
    <PageHeading 
-     title='Investment Banking'
-     bgSrc='/images/team_hero_bg.png'
+     title=''
+     bgSrc='/images/animated/investbanner.png'
      pageLinkText='Investment Banking'
    />
-   <Spacing lg='150' md='80'/>
+   {/* <Spacing lg='150' md='80'/> */}
    <Div className="container">
      <Div className="row align-items-center">
-       <Div className="col-xl-6 col-lg-6">
+       {/* <Div className="col-xl-6 col-lg-6">
          <Div className="cs-radius_15 cs-shine_hover_1">
            <img src="/images/webicons/g25.gif" alt="Member" className="w-100" />
          </Div>
-       </Div>
-       <Div className="col-lg-6 ">
-         <Spacing lg='0' md='45'/>
+       </Div> */}
+       <Div className="col-lg-12 text-center ">
+         <Spacing lg='50' md='45'/>
          <Div className="cs-section_heading cs-style1">
            <h2 className="cs-section_title">Investment Banking</h2>
            <Div className="cs-height_10 cs-height_lg_10" />
            {/* <h3 className="cs-section_subtitle">Product Designer</h3>
            <Div className="cs-height_5 cs-height_lg_5" /> */}
-           <div className="d-flex align-items-center"><Div className="cs-separator cs-accent_bg mx-1" />◈<Div className="cs-separator cs-accent_bg mx-1" /></div>
+           {/* <div className="d-flex align-items-center"><Div className="cs-separator cs-accent_bg mx-1" />◈<Div className="cs-separator cs-accent_bg mx-1" /></div> */}
            <Div className="cs-height_45 cs-height_lg_25" />
            <p className="cs-m0">Unlock financial success with Rits Capital's Investment Banking expertise. From IPOs to M&A, our seasoned team ensures strategic growth. Access funding with tailored Private Equity solutions and secure your financial future with our Equity Capital Markets and  Debt Advisory services. We provide the following comprehensive services under Investment Banking.</p>
            {/* <Div className="cs-height_25 cs-height_lg_20" />
@@ -47,7 +47,7 @@ const Investment = () => {
    <Div className="container">
      <Div className="row align-items-center">
      
-       <Div className="col-lg-6 order-md-1 order-2">
+       <Div className="col-lg-6 order-lg-1 order-2">
          <Spacing lg='0' md='45'/>
          <Div className="cs-section_heading cs-style1">
            <h2 className="cs-section_title">  IPO  </h2>
@@ -72,9 +72,9 @@ const Investment = () => {
            {/* <SocialWidget/> */}
          </Div>
        </Div>
-       <Div className="col-xl-6 col-lg-6 order-md-2 order-1 ">
+       <Div className="col-xl-6 col-lg-6 order-lg-2 order-1 ">
          <Div className="cs-radius_15 cs-shine_hover_1">
-           <img src="/images/animated/preipo.png" alt="Member" className="w-100" />
+           <img src="/images/animated/ipoib.png" alt="Member" className="w-100" />
          </Div>
        </Div>
      </Div>
@@ -86,7 +86,7 @@ const Investment = () => {
      <Div className="row align-items-center">
        <Div className="col-xl-6 col-lg-6">
          <Div className="cs-radius_15 cs-shine_hover_1">
-           <img src="/images/webicons/g20.gif" alt="Member" className="w-100" />
+           <img src="/images/animated/m&a.png" alt="Member" className="w-100" />
          </Div>
        </Div>
        <Div className="col-lg-6 ">
@@ -122,7 +122,7 @@ const Investment = () => {
    <Div className="container">
      <Div className="row align-items-center">
      
-       <Div className="col-lg-6 order-md-1 order-2">
+       <Div className="col-lg-6 order-lg-1 order-2">
          <Spacing lg='0' md='45'/>
          <Div className="cs-section_heading cs-style1">
            <h2 className="cs-section_title">    Private Equity  </h2>
@@ -147,9 +147,9 @@ const Investment = () => {
            {/* <SocialWidget/> */}
          </Div>
        </Div>
-       <Div className="col-xl-6 col-lg-6 order-md-2 order-1">
+       <Div className="col-xl-6 col-lg-6 order-lg-2 order-1">
          <Div className="cs-radius_15 cs-shine_hover_1">
-           <img src="/images/webicons/g23.gif"alt="Member" className="w-100" />
+           <img src="/images/animated/pivateeq.png"alt="Member" className="w-100" />
          </Div>
        </Div>
      </Div>
@@ -198,7 +198,7 @@ const Investment = () => {
    <Div className="container">
      <Div className="row align-items-center">
      
-       <Div className="col-lg-6 order-md-1 order-2">
+       <Div className="col-lg-6 order-lg-1 order-2">
          <Spacing lg='0' md='45'/>
          <Div className="cs-section_heading cs-style1">
            <h2 className="cs-section_title">ECM Advisory </h2>
@@ -221,9 +221,9 @@ const Investment = () => {
            {/* <SocialWidget/> */}
          </Div>
        </Div>
-       <Div className="col-xl-6 col-lg-6 order-md-2 order-1">
+       <Div className="col-xl-6 col-lg-6 order-lg-2 order-1">
          <Div className="cs-radius_15 cs-shine_hover_1">
-           <img src="/images/animated/Advisory.png"alt="Member" className="w-100" />
+           <img src="/images/animated/Ecm.png"alt="Member" className="w-100" />
          </Div>
        </Div>
      </Div>
@@ -235,7 +235,7 @@ const Investment = () => {
   <Div className="row align-items-center">
     <Div className="col-xl-6 col-lg-6">
       <Div className="cs-radius_15 cs-shine_hover_1">
-        <img src="/images/animated/Debt.png" alt="Member" className="w-100" />
+        <img src="/images/animated/debtad.png" alt="Member" className="w-100" />
       </Div>
     </Div>
     <Div className="col-lg-6">
@@ -269,7 +269,7 @@ const Investment = () => {
    <Div className="container">
      <Div className="row align-items-center">
      
-       <Div className="col-lg-6 order-md-1 order-2">
+       <Div className="col-lg-6 order-lg-1 order-2">
          <Spacing lg='0' md='45'/>
          <Div className="cs-section_heading cs-style1">
            <h2 className="cs-section_title">  SPAC</h2>
@@ -293,7 +293,7 @@ const Investment = () => {
            {/* <SocialWidget/> */}
          </Div>
        </Div>
-       <Div className="col-xl-6 col-lg-6 order-md-2 order-1">
+       <Div className="col-xl-6 col-lg-6 order-lg-2 order-1">
          <Div className="cs-radius_15 cs-shine_hover_1">
            <img src="/images/webicons/g19.gif"alt="Member" className="w-100" />
          </Div>

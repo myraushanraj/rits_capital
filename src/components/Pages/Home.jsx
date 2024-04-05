@@ -5,6 +5,7 @@ import Hero from '../Hero';
 import Portfolio2 from '../Portfolio/Portfolio2';
 import Portfolio3 from '../Portfolio/Portfolio3';
 import Div from '../Div';
+// import Banner from './Banner';
 import SectionHeading from '../SectionHeading';
 import Spacing from '../Spacing';
 import FunFact2 from '../FunFact/FunFact2';
@@ -20,7 +21,9 @@ import TeamSlider from '../Slider/TeamSlider';
 import VideoModal from '../VideoModal';
 import TimelineSlider from '../Slider/TimelineSlider';
 import { pageTitle } from '../../helper';
-import ShowcasePortfolioHome from './ShowcasePortfolioHome';
+// import ShowcasePortfolioHome from './ShowcasePortfolioHome';
+// import Hero7 from '../Hero7';
+import CaseStudyShowcaseHome from './CaseStudyShowcaseHome';
 
 export default function Home() {
   pageTitle('Home');
@@ -104,7 +107,7 @@ export default function Home() {
     ],
       btnText: 'See Details',
       btnLink: '/Wealthmanagement',
-      imageUrl: '/images/animated/wealth.png',
+      imageUrl: '/images/animated/Wealth.png',
       category: 'Web Development',
     },
     {
@@ -121,7 +124,11 @@ export default function Home() {
       category: 'Branding',
     },
     {
-      title: 'Financial Support Services ',
+      title: (
+        <>
+          Financial <span style={{ color: '' }}>Support</span> Services
+        </>
+      ),
       subtitle: "",
       subPoints: [" Precision accounting: Ensure compliance with tax regulations.",
       "  Tailored advisory: Strategic financial guidance for your goals.",
@@ -130,7 +137,7 @@ export default function Home() {
     
       btnText: 'See Details',
       btnLink: '/Accounting',
-      imageUrl: '/images/animated/Finance 540.png',
+      imageUrl: '/images/animated/Financial.png',
       category: 'UI Design',
     },
     {
@@ -143,29 +150,34 @@ export default function Home() {
     ],
       btnText: 'See Details',
       btnLink: '/Acceleration',
-      imageUrl: '/images/animated/start540.png',
+      imageUrl: '/images/animated/startup.png',
       category: 'Apps Design',
     },
-    {
-      title: 'Pre-IPO ',
-      subtitle: "",
+    // {
+    //   title: 'Pre-IPO ',
+    //   subtitle: "",
    
-      subPoints: [" Discover exclusive unlisted share deals aligned with your  investment goals.",
-      " Diversify with tailored baskets of shares for wealth creation.",
-      " Explore unparalleled Pre-IPO opportunities and strategic investment avenues."
-    ],
-      btnText: 'See Details',
-      btnLink: '/Preipo',
-      imageUrl: '/images/animated/preipo.png',
-      category: 'Apps Design',
-    },
+    //   subPoints: [" Discover exclusive unlisted share deals aligned with your  investment goals.",
+    //   " Diversify with tailored baskets of shares for wealth creation.",
+    //   " Explore unparalleled Pre-IPO opportunities and strategic investment avenues."
+    // ],
+    //   btnText: 'See Details',
+    //   btnLink: '/Preipo',
+    //   imageUrl: '/images/animated/preipo.png',
+    //   category: 'Apps Design',
+    // },
 
   ];
 
   return (
     <>
       {/* Start Hero Section */}
-      <ShowcasePortfolioHome/>
+      {/* <Hero7/> */}
+      <CaseStudyShowcaseHome 
+      />
+
+      {/* <ShowcasePortfolioHome/> */}
+      {/* <Banner/> */}
       {/* <Hero
         title="Rits Capital"
         subtitle="At Rits Capital, we understand that wealth management is more than just numbers. It's about your goals, your dreams, and your legacy. We partner with you to create a personalized plan that grows your wealth, protects your assets, and helps you achieve your financial aspirations."
@@ -178,9 +190,10 @@ export default function Home() {
         
       /> */}
      
+     <Div  className="glow d-none d-md-block" ><img id='i1' src="/images/Glow.svg" alt="" /></Div>
       
       {/* End Hero Section */}
-  <Spacing lg="50" md="80" />
+  {/* <Spacing lg="50" md="80" /> */}
       {/* Start FunFact Section */}
       <div className="container">
         <FunFact/>
@@ -217,7 +230,20 @@ export default function Home() {
         </Div>
       </Div> */}
       {/* what we do */}
-      <Spacing lg="90" md="45" />
+      
+   
+
+      <Div className="glow d-none d-md-block"><img id='i4' src="/images/Glow1.svg" alt="" /></Div>
+      <Spacing lg="50" md="45" />
+      <Div className="container">
+        <SectionHeading
+          title="What We Do"
+          subtitle=""
+          variant="cs-style1 text-center red-text"
+          
+        />
+        <Spacing lg="50" md="45" />
+      </Div>
       {portfolioData.map((item, index) =>
         index % 2 === 0 ? (
           <Div key={index}>
@@ -231,8 +257,11 @@ export default function Home() {
             
               // category={item.category}
             />
+
            
             <Spacing lg="50" md="50" />
+      {/* <Div className="glow"><img id='i4' src="/images/Glow1.svg" alt="" /></Div> */}
+
           </Div>
         ) : (
           <Div key={index}>
@@ -388,7 +417,9 @@ export default function Home() {
       {/* Start Testimonial Section */}
       {/* <TestimonialSlider /> */}
       {/* End Testimonial Section */}
+      {/* <Div className="glow"><img id='i2' src="/images/Glow.svg" alt="" /></Div> */}
       <Spacing lg="50" md="80" />
+     
       <Div className="container">
         <FunFact2
           // data={funfaceData2}
@@ -425,26 +456,41 @@ export default function Home() {
       {/* Start MovingText Section */}
       {/* <Spacing lg="125" md="70" />
       <MovingText text="Our reputed world wide partners" />
-      
+       */} 
+       {/* <Spacing lg="50" md="80" />  */}
+       <Spacing lg="50" md="45" />
+      <Div className="container">
+        <SectionHeading
+          title="Our Event Patners"
+          subtitle=""
+          variant="cs-style1 text-center red-text"
+          
+        />
+        <Spacing lg="50" md="45" />
+      </Div>
+       {/* <Div><h3>our Event part</h3></Div> */}
       <MovingText2 data={serviceData1} />
-      <Spacing lg="105" md="70" /> */}
+      <Spacing lg="50" md="80" /> 
+      {/* <Spacing lg="105" md="70" /> */}
       {/* End MovingText Section */}
-      <Spacing lg="150" md="80" />
+      {/* <Spacing lg="150" md="80" /> */}
 
       {/* Start LogoList Section */}
-      <Div className="container">
+      {/* <Div className="container">
         <LogoList />
       </Div>
-      <Spacing lg="150" md="80" />
+      <Spacing lg="150" md="80" /> */}
       {/* End LogoList Section */}
 
       {/* Start CTA Section */}
+      <Div className="glow d-none d-md-block"><img id='i3' src="/images/Glow.svg" alt="" /></Div>
+
       <Div className="container">
         <Cta
           title="Let's discuss and take the journey <br/>to  <i>growth</i> together"cta
           btnText="Setup Free Meeting"
           btnLink="/contact"
-          bgSrc="/images/contactbg.avif"
+          bgSrc="/images/cta_bg.jpeg"
         />
       </Div>
       <Spacing lg="50" md="80" />

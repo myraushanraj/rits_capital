@@ -8,6 +8,7 @@ export default function Portfolio3({title, subtitle, btnText, btnLink,subPoints,
   return (
     <Div className="cs-portfolio cs-style2 cs-type1">
       <Div className="cs-gradient_shape" />
+      
       <Div className="container">
         <Div className="row align-items-center cs-column_reverse_lg">
           <Div className="col-xl-6 col-lg-6">
