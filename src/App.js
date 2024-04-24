@@ -27,6 +27,8 @@ import Preipo from "./components/Pages/Preipo";
 import Accounting from "./components/Pages/Accounting";
 import Acceleration from "./components/Pages/Acceleration";
 import Whyus from './components/Pages/Whyus';
+import Ritspreipo from './components/Pages/Ritspreipo';
+
 import { useEffect } from 'react';
 import { FaWhatsapp } from "react-icons/fa";
 
@@ -77,6 +79,8 @@ function App() {
           <Route path="Acceleration" element={<Acceleration />} />
           <Route path="Preipo" element={<Preipo />} />
           <Route path="Whyus" element={<Whyus />} />
+          <Route path="Ritspreipo" element={<Ritspreipo />} />
+
 
 
           <Route path="portfolio" element={<PortfolioPage />} />
