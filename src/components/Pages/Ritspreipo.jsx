@@ -9,6 +9,7 @@ const Ritspreipo = () => {
      mobile: '',
 
    });
+   const [success, setSuccess] = useState(false)
  
    const handleInputChange = (e) => {
      const { name, value } = e.target;
@@ -53,7 +54,7 @@ const Ritspreipo = () => {
     
  
  
-     const comment = `contact - ${formData.mobile}`;
+     const comment = `contact - ${formData.mobile} page-pre-ipo`;
  
      // Create payload for API
      const payload = {
@@ -79,6 +80,7 @@ const Ritspreipo = () => {
      // Handle the API response as needed
      const response = await rawResponse.json();
      console.log(response);
+     setSuccess(true)
  
      setFormData({
        name: '',
@@ -132,7 +134,7 @@ const Ritspreipo = () => {
                    <input type="number"  name="mobile" value={formData.mobile} onChange={handleInputChange} placeholder="Mobile No" required/>
                    <input type="text"  value={formData.email} onChange={handleInputChange} name="email" placeholder="Email id" required/>
                    <input type="submit" id="email" value="Register Now" name="submit"/>
-                   <p className="text-success"> </p>
+                 {success &&   <p className="text-success">Thanks, We will connect you soon! </p>}
                    <br/>
                    <p>Get free Pre IPO</p>
                    <p>Share in prominent companies</p>
