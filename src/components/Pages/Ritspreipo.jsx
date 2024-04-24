@@ -121,7 +121,7 @@ const Ritspreipo = () => {
                        </div>
                        <div className="col-md-6">
                            <p>Want to know secret to grow your wealth</p>
-                           <p>Contact us Now +91 9810915695</p>
+                           <p>Contact us Now +91 8130806145</p>
                            <p>support@ritscapital.com</p>
                        </div>
                    </div>
