@@ -79,7 +79,7 @@ function App() {
           <Route path="Acceleration" element={<Acceleration />} />
           <Route path="Preipo" element={<Preipo />} />
           <Route path="Whyus" element={<Whyus />} />
-          <Route path="Ritspreipo" element={<Ritspreipo />} />
+          <Route path="pre-ipo" element={<Ritspreipo />} />
 
 
 
