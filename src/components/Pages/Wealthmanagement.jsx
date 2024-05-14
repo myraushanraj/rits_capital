@@ -13,9 +13,9 @@ const Wealthmanagement = () => {
   return (
    <>
    <PageHeading 
-     title='Wealth Management'
+     title='Wealth Management Service'
      bgSrc='/images/team_hero_bg.png'
-     pageLinkText='Wealth Management Service'
+     pageLinkText='At Rits Capital, we offer personalized wealth management, focusing on maximizing returns while minimizing risks. With transparent communication and a client-centric approach, we guide clients towards their financial goals. We become trusted partners in our clients’ financial journey through following services under wealth management.'
    />
    
    <Spacing lg='80' md='80'/>
@@ -24,7 +24,7 @@ const Wealthmanagement = () => {
        <Div className="col-xl-6 col-lg-6 ">
         
          <Div className="cs-radius_15 cs-shine_hover_1">
-         {/* <img src="/images/bgcircle.jpg" alt=""  style={{  width: '80%', height: '80%', zIndex: -1 }}/> */}
+        
          <img src="/images/animated/wealth.png" alt="Member"className="w-100"  />
          </Div>
         
@@ -54,7 +54,7 @@ const Wealthmanagement = () => {
    <Div className="container">
      <Div className="row align-items-center">
      
-       <Div className="col-lg-6 order-md-1 order-2">
+       <Div className="col-lg-6 order-lg-1 order-2">
          <Spacing lg='0' md='45'/>
          <Div className="cs-section_heading cs-style1">
            <h2 className="cs-section_title">Portfolio Management Services (PMS)</h2>
@@ -76,7 +76,7 @@ const Wealthmanagement = () => {
            {/* <SocialWidget/> */}
          </Div>
        </Div>
-       <Div className="col-xl-6 col-lg-6 order-md-2 order-1">
+       <Div className="col-xl-6 col-lg-6 order-lg-2 order-1">
          {/* <Div className="cs-radius_15 cs-shine_hover_1"> */}
            <img src="/images/animated/pms.png" alt="Member" className="w-100" />
          {/* </Div> */}
@@ -91,7 +91,7 @@ const Wealthmanagement = () => {
      <Div className="row align-items-center">
        <Div className="col-xl-6 col-lg-6 ">
          {/* <Div className="cs-radius_15 cs-shine_hover_1"> */}
-           <img src="/images/webicons/g5.gif" alt="Member" className="w-100" />
+           <img src="/images/animated/startupinvest.png" alt="Member" className="w-100" />
          {/* </Div> */}
        </Div>
        <Div className="col-lg-6">
@@ -129,7 +129,7 @@ const Wealthmanagement = () => {
    <Div className="container">
      <Div className="row align-items-center">
      
-       <Div className="col-lg-6 order-md-1 order-2">
+       <Div className="col-lg-6 order-lg-1 order-2">
          <Spacing lg='0' md='45'/>
          <Div className="cs-section_heading cs-style1 show ">
            <h2 className="cs-section_title">Real Estate Investment </h2>
@@ -163,7 +163,7 @@ const Wealthmanagement = () => {
            {/* <SocialWidget/> */}
          </Div>
        </Div>
-       <Div className="col-xl-6 col-lg-6  order-md-2 order-1">
+       <Div className="col-xl-6 col-lg-6  order-lg-2 order-1">
          {/* <Div className="cs-radius_15 cs-shine_hover_1"> */}
          <img src="/images/animated/realstate.png" alt="Member" className="w-100" />
 
@@ -178,7 +178,7 @@ const Wealthmanagement = () => {
      <Div className="row align-items-center">
        <Div className="col-xl-6 col-lg-6">
          {/* <Div className="cs-radius_15 cs-shine_hover_1"> */}
-         <img src="/images/webicons/g7.gif" alt="Member" className="w-100" />
+         <img src="/images/animated/smeipo.png" alt="Member" className="w-100" />
 
          {/* </Div> */}
        </Div>
@@ -230,7 +230,7 @@ Investing in Pre-IPO opportunities with Rits Capital offers investors a unique c
 <Div className="container">
   <Div className="row align-items-center">
   
-    <Div className="col-lg-6 order-md-1 order-2">
+    <Div className="col-lg-6 order-lg-1 order-2">
       <Spacing lg='0' md='45'/>
       <Div className="cs-section_heading cs-style1 show ">
         <h2 className="cs-section_title">Pre-IPO Investment  </h2>
@@ -258,9 +258,9 @@ Investing in Pre-IPO opportunities with Rits Capital offers investors a unique c
         {/* <SocialWidget/> */}
       </Div>
     </Div>
-    <Div className="col-xl-6 col-lg-6  order-md-2 order-1">
+    <Div className="col-xl-6 col-lg-6  order-lg-2 order-1">
       {/* <Div className="cs-radius_15 cs-shine_hover_1"> */}
-        <img src="/images/animated/preipo.png" alt="Member" className="w-100" />
+        <img src="/images/animated/preipoinvest.png" alt="Member" className="w-100" />
       {/* </Div> */}
     </Div>
   </Div>

@@ -119,7 +119,7 @@ export default function ContactPage({ withIcon }) {
         bgSrc="/images/team_hero_bg.png"
         pageLinkText="Contact"
       />
-      <Spacing lg="50" md="80" />
+      <Spacing lg="50" md="10" />
       <div className="container text-center">
         <div className="row">
           <div className="col-lg-12">
@@ -181,6 +181,7 @@ export default function ContactPage({ withIcon }) {
                   className="cs-form_field"
                 ></textarea>
               </div>
+              <Spacing lg="10" md="10" />
               <div className="col-sm-12">
                 <button type="submit" className="cs-btn cs-style1">
                   <span>Send Message</span>

@@ -66,9 +66,9 @@
     height: 36px;
     width: 36px;
     border-radius: 50%;
-    border: 2px solid $black;
+    border: 2px solid $secondary;
     margin: 7px;
-    color: $black;
+    // color: $secondary;
     &:hover {
       border-color: $accent;
       transform: scale(1.08);

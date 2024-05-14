@@ -10,22 +10,22 @@ const Acceleration = () => {
   return (
    <>
    <PageHeading 
-     title='Start-up Incubation'
+     title='Startup Incubation'
      bgSrc='/images/team_hero_bg.png'
      pageLinkText='Acceleration '
    />
-   <Spacing lg='150' md='80'/>
+   {/* <Spacing lg='150' md='80'/> */}
    <Div className="container">
      <Div className="row align-items-center">
        <Div className="col-xl-6 col-lg-6">
          <Div className="cs-radius_15 cs-shine_hover_1">
-           <img src="/images/webicons/g34.gif" alt="Member" className="w-100" />
+           <img src="/images/animated/Startup Incubation.png" alt="Member" className="w-100" />
          </Div>
        </Div>
-       <Div className="col-lg-6 ">
-         <Spacing lg='0' md='45'/>
+       <Div className="col-lg-6  ">
+         <Spacing lg='50' md='45'/>
          <Div className="cs-section_heading cs-style1">
-           <h2 className="cs-section_title">Acceleration </h2>
+           <h2 className="cs-section_title">Startup Incubation </h2>
            <Div className="cs-height_10 cs-height_lg_10" />
            {/* <h3 className="cs-section_subtitle">Product Designer</h3> */}
            {/* <Div className="cs-height_5 cs-height_lg_5" /> */}
@@ -46,7 +46,7 @@ const Acceleration = () => {
    <Div className="container">
      <Div className="row align-items-center">
      
-       <Div className="col-lg-6 order-md-1 order-2">
+       <Div className="col-lg-6 order-lg-1 order-2">
          <Spacing lg='0' md='45'/>
          <Div className="cs-section_heading cs-style1">
            <h2 className="cs-section_title">Mentorship and Handholding </h2>
@@ -67,9 +67,9 @@ const Acceleration = () => {
            {/* <SocialWidget/> */}
          </Div>
        </Div>
-       <Div className="col-xl-6 col-lg-6 order-md-2 order-1">
+       <Div className="col-xl-6 col-lg-6 order-lg-2 order-1">
          <Div className="cs-radius_15 cs-shine_hover_1">
-           <img src="/images/webicons/g33.gif" alt="Member" className="w-100" />
+           <img src="/images/animated/mentorship.png" alt="Member" className="w-100" />
          </Div>
        </Div>
      </Div>
@@ -81,7 +81,7 @@ const Acceleration = () => {
      <Div className="row align-items-center">
        <Div className="col-xl-6 col-lg-6">
          <Div className="cs-radius_15 cs-shine_hover_1">
-           <img src="/images/webicons/g32.gif" alt="Member" className="w-100" />
+           <img src="/images/animated/rolls up.png" alt="Member" className="w-100" />
          </Div>
        </Div>
        <Div className="col-lg-6">
@@ -115,7 +115,7 @@ const Acceleration = () => {
    <Div className="container">
      <Div className="row align-items-center">
      
-       <Div className="col-lg-6 order-md-1 order-2">
+       <Div className="col-lg-6 order-lg-1 order-2">
          <Spacing lg='0' md='45'/>
          <Div className="cs-section_heading cs-style1">
            <h2 className="cs-section_title">Office Space </h2>
@@ -136,9 +136,9 @@ const Acceleration = () => {
            {/* <SocialWidget/> */}
          </Div>
        </Div>
-       <Div className="col-xl-6 col-lg-6 order-md-2 order-1">
+       <Div className="col-xl-6 col-lg-6 order-lg-2 order-1">
          <Div className="cs-radius_15 cs-shine_hover_1">
-           <img src="/images/webicons/g31.gif" alt="Member" className="w-100" />
+           <img src="/images/animated/Office SPace.png" alt="Member" className="w-100" />
          </Div>
        </Div>
      </Div>
@@ -149,7 +149,7 @@ const Acceleration = () => {
      <Div className="row align-items-center">
        <Div className="col-xl-6 col-lg-6">
          <Div className="cs-radius_15 cs-shine_hover_1">
-           <img src="/images/webicons/g30.gif" alt="Member" className="w-100" />
+           <img src="/images/animated/empowering.png" alt="Member" className="w-100" />
          </Div>
        </Div>
        <Div className="col-lg-6">

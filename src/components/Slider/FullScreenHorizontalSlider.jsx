@@ -91,6 +91,7 @@ export default function FullScreenHorizontalSlider({ data, btnText,
             <Div>
               <Div className="cs-hero_subtitle">{item.subtitle}</Div>
             </Div>
+            
           </Div>
               </Div>
             </Div></div>

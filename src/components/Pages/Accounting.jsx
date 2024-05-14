@@ -10,20 +10,20 @@ const Accounting = () => {
   return (
    <>
    <PageHeading 
-     title='Financial Support Services '
+     title='Financial Support Services'
      bgSrc='/images/team_hero_bg.png'
      pageLinkText='Accounting '
    />
-   <Spacing lg='150' md='80'/>
+   {/* <Spacing lg='150' md='80'/> */}
    <Div className="container">
      <Div className="row align-items-center">
        <Div className="col-xl-6 col-lg-6 ">
          <Div className="cs-radius_15 cs-shine_hover_1">
-           <img src="/images/webicons/g29.gif" alt="Member" className="w-100" />
+           <img src="/images/animated/finiancial.png" alt="Member" className="w-100" />
          </Div>
        </Div>
-       <Div className="col-lg-6 ">
-         <Spacing lg='0' md='45'/>
+       <Div className="col-lg-6">
+         <Spacing lg='50' md='45'/>
          <Div className="cs-section_heading cs-style1">
            <h2 className="cs-section_title">Financial Support Services</h2>
            <Div className="cs-height_10 cs-height_lg_10" />
@@ -45,7 +45,7 @@ const Accounting = () => {
    <Div className="container">
      <Div className="row align-items-center">
      
-       <Div className="col-lg-6 order-md-1 order-2">
+       <Div className="col-lg-6 order-lg-1 order-2">
          <Spacing lg='0' md='45'/>
          <Div className="cs-section_heading cs-style1">
            <h2 className="cs-section_title"> Accounting​</h2>
@@ -66,9 +66,9 @@ const Accounting = () => {
            {/* <SocialWidget/> */}
          </Div>
        </Div>
-       <Div className="col-xl-6 col-lg-6 order-md-2 order-1">
+       <Div className="col-xl-6 col-lg-6 order-lg-2 order-1">
          <Div className="cs-radius_15 cs-shine_hover_1">
-           <img src="/images/webicons/g26.gif" alt="Member" className="w-100" />
+           <img src="/images/animated/accounting.png" alt="Member" className="w-100" />
          </Div>
        </Div>
      </Div>
@@ -79,7 +79,7 @@ const Accounting = () => {
      <Div className="row align-items-center">
        <Div className="col-xl-6 col-lg-6">
          <Div className="cs-radius_15 cs-shine_hover_1">
-           <img src="/images/webicons/g27.gif" alt="Member" className="w-100" />
+           <img src="/images/animated/tax service.png" alt="Member" className="w-100" />
          </Div>
        </Div>
        <Div className="col-lg-6 ">
@@ -113,7 +113,7 @@ const Accounting = () => {
    <Div className="container">
      <Div className="row align-items-center">
      
-       <Div className="col-lg-6 order-md-1 order-2">
+       <Div className="col-lg-6 order-lg-1 order-2">
          <Spacing lg='0' md='45'/>
          <Div className="cs-section_heading cs-style1">
            <h2 className="cs-section_title">Advisory Services​ </h2>
@@ -135,9 +135,9 @@ const Accounting = () => {
            {/* <SocialWidget/> */}
          </Div>
        </Div>
-       <Div className="col-xl-6 col-lg-6 order-md-2 order-1">
+       <Div className="col-xl-6 col-lg-6 order-lg-2 order-1">
          <Div className="cs-radius_15 cs-shine_hover_1">
-           <img src="/images/webicons/g30.gif" alt="Member" className="w-100" />
+           <img src="/images/animated/Ipo Advisory.png" alt="Member" className="w-100" />
          </Div>
        </Div>
      </Div>
@@ -148,7 +148,7 @@ const Accounting = () => {
      <Div className="row align-items-center">
        <Div className="col-xl-6 col-lg-6">
          <Div className="cs-radius_15 cs-shine_hover_1">
-           <img src="/images/webicons/g28.gif" alt="Member" className="w-100" />
+           <img src="/images/animated/aduit.png" alt="Member" className="w-100" />
          </Div>
        </Div>
        <Div className="col-lg-6">

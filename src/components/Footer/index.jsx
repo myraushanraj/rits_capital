@@ -108,7 +108,7 @@ export default function Footer({copyrightText, logoSrc, logoAlt, text}) {
                   title='Subscribe' 
                   subtitle='Want to know secret to grow your wealth
 
-                  Contact us Now +91 8130806145
+                  Contact us Now +91 9810915695
                   
                  ' 
                   placeholder=' support@ritscapital.com'

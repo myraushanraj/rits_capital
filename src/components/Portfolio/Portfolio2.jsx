@@ -7,6 +7,7 @@ export default function Portfolio2({title, subtitle, btnText, btnLink, imageUrl,
   const [hovered, setHovered] = useState(false);
   return (
     <Div className="cs-portfolio cs-style2">
+
       <Div className="cs-gradient_shape" />
       <Div className="container">
         <Div className="row align-items-center">

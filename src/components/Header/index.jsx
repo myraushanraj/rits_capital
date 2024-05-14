@@ -146,7 +146,7 @@ export default function Header({ variant }) {
                     </li> */}
                     <li className="menu-item-has-children">
                       <NavLink
-                        to="Wealthmanagement"
+                        to="#"
                         onClick={() => setMobileToggle(false)}
                       >
                         What we do

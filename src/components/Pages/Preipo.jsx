@@ -11,7 +11,7 @@ const Preipo = () => {
    <>
    <PageHeading 
      title='Pre IPO '
-     bgSrc='images/about_hero_bg.png'
+     bgSrc='/images/team_hero_bg.png'
      pageLinkText='Pre IPO '
    />
    <Spacing lg='150' md='80'/>
@@ -19,7 +19,7 @@ const Preipo = () => {
      <Div className="row align-items-center">
        <Div className="col-xl-6 col-lg-6">
          <Div className="cs-radius_15 cs-shine_hover_1">
-           <img src="/images/animated/preipo.png" alt="Member" className="w-100" />
+           <img src="/images/animated/ipo.png" alt="Member" className="w-100" />
          </Div>
        </Div>
        <Div className="col-lg-6 ">
@@ -69,7 +69,7 @@ const Preipo = () => {
        </Div>
        <Div className="col-xl-6 col-lg-6 order-md-2 order-1">
          <Div className="cs-radius_15 cs-shine_hover_1">
-           <img src="/images/webicons/g36.gif" alt="Member" className="w-100" />
+           <img src="/images/animated/unlisted shares.png" alt="Member" className="w-100" />
          </Div>
        </Div>
      </Div>
@@ -81,7 +81,7 @@ const Preipo = () => {
      <Div className="row align-items-center">
        <Div className="col-xl-6 col-lg-6">
          <Div className="cs-radius_15 cs-shine_hover_1">
-           <img src="/images/webicons/g38.gif" alt="Member" className="w-100" />
+           <img src="/images/animated/deals.png" alt="Member" className="w-100" />
          </Div>
        </Div>
 
@@ -138,7 +138,7 @@ const Preipo = () => {
        </Div>
        <Div className="col-xl-6 col-lg-6 order-md-2 order-1">
          <Div className="cs-radius_15 cs-shine_hover_1">
-           <img src="/images/webicons/g18(1).gif" alt="Member" className="w-100" />
+           <img src="/images/animated/basket.png" alt="Member" className="w-100" />
          </Div>
        </Div>
      </Div>

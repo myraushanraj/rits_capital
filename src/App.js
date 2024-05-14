@@ -27,10 +27,9 @@ import Preipo from "./components/Pages/Preipo";
 import Accounting from "./components/Pages/Accounting";
 import Acceleration from "./components/Pages/Acceleration";
 import Whyus from './components/Pages/Whyus';
-import Ritspreipo from './components/Pages/Ritspreipo';
-
 import { useEffect } from 'react';
 import { FaWhatsapp } from "react-icons/fa";
+// import Banner from './components/Pages/Banner';
 
 
 const External = ()=>{
@@ -69,6 +68,8 @@ function App() {
           <Route path="marketing-agency" element={<MarketingAgencyHome />} />
           <Route path="about" element={<AboutPage />} />
           <Route path="service" element={<ServicesPage />} />
+          {/* <Route path="Banner" element={<Banner />} /> */}
+          
           <Route
             path="service/:serviceDetailsId"
             element={<ServiceDetailsPage />}
@@ -79,8 +80,6 @@ function App() {
           <Route path="Acceleration" element={<Acceleration />} />
           <Route path="Preipo" element={<Preipo />} />
           <Route path="Whyus" element={<Whyus />} />
-          <Route path="pre-ipo" element={<Ritspreipo />} />
-
 
 
           <Route path="portfolio" element={<PortfolioPage />} />
@@ -120,7 +119,7 @@ function App() {
         
         <Route path="*" element={<ErrorPage />} />
       </Routes>
-      <a  class="whats-app" href="https://api.whatsapp.com/send?phone=8130806145&text=Hello" target="_blank">
+      <a  class="whats-app" href="https://api.whatsapp.com/send?phone=9810915695&text=Hello" target="_blank">
       <FaWhatsapp />
   </a>
     </>

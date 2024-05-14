@@ -15,6 +15,9 @@
 html{
 background:#000000 !important;
 }
+.white-logo {
+	filter: brightness(0) invert(1);
+  }
 .whats-app {
     position: fixed;
     width: 60px;
@@ -5456,7 +5459,7 @@ a:hover, a:active, a:focus, img{
 }
 
 .de-flex-wrap{
-	
+	background: 
 	display: flex;
 	justify-content: space-between;
 }
