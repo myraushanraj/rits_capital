@@ -6,6 +6,7 @@ import Div from '../Div'
 import SectionHeading from '../SectionHeading'
 import TestimonialSlider from '../Slider/TestimonialSlider'
 import Spacing from '../Spacing'
+import { Link } from 'react-router-dom'
 
 const Whyus = () => {
   return (
@@ -15,6 +16,35 @@ const Whyus = () => {
         bgSrc='/images/service_hero_bg.png'
         pageLinkText="Why Us"
       />
+      <Div className="container">
+     <Div className="row align-items-center">
+       {/* <Div className="col-xl-6 col-lg-6">
+         <Div className="cs-radius_15 cs-shine_hover_1">
+           <img src="/images/animated/Startup Incubation.png" alt="Member" className="w-100" />
+         </Div>
+       </Div> */}
+       <Div className="col-lg-12  ">
+         <Spacing lg='50' md='45'/>
+         <Div className="cs-section_heading cs-style1">
+           <h2 className="cs-section_title text-center"> Why Us</h2>
+           <Div className="cs-height_10 cs-height_lg_10" />
+           {/* <h3 className="cs-section_subtitle">Product Designer</h3> */}
+           {/* <Div className="cs-height_5 cs-height_lg_5" /> */}
+           <div className="d-flex align-items-center justify-content-center"><Div className="cs-separator cs-sep cs-accent_bg mx-1" />◈<Div className="cs-separator cs-sep cs-accent_bg mx-1" /></div>
+           <Div className="cs-height_45 cs-height_lg_25" />
+           <p className="cs-m0 text-center">Our commitment to client success is unwavering, with tailored solutions that address their unique financial goals and challenges. </p>
+           <Div className="cs-height_25 cs-height_lg_20" />
+           <div className="d-flex align-items-center justify-content-center">
+           <Link to="/contact" className="action-btn "><span>Consult Us</span></Link>
+           </div>
+           {/* <p className="cs-m0"> At Rits Capital, we go beyond funding – we provide comprehensive Funding Support, ensuring your business has the financial backing it needs to thrive. Propel your journey with Rits Capital's Acceleration services, where mentorship, strategy, infrastructure, and funding converge for a transformative business trajectory.</p>
+           <Div className="cs-height_45 cs-height_lg_30" /> */}
+           {/* <SocialWidget/> */}
+         </Div>
+       </Div>
+     </Div>
+     
+   </Div>
       {/* <Spacing lg='145' md='80'/> */}
             {/* Start Why Choose Section */}
             <Spacing lg="50" md="80" />

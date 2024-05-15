@@ -1,5 +1,7 @@
 import React, { useEffect } from 'react'
 import { pageTitle } from '../../helper'
+import { Link} from 'react-router-dom';
+
 import Cta from '../Cta'
 import IconBox from '../IconBox'
 import SectionHeading from '../SectionHeading'
@@ -13,34 +15,38 @@ const Wealthmanagement = () => {
   return (
    <>
    <PageHeading 
-     title='Wealth Management Service'
-     bgSrc='/images/team_hero_bg.png'
+     title=''
+     bgSrc='/images/animated/wealthbanner.png'
      pageLinkText='At Rits Capital, we offer personalized wealth management, focusing on maximizing returns while minimizing risks. With transparent communication and a client-centric approach, we guide clients towards their financial goals. We become trusted partners in our clients’ financial journey through following services under wealth management.'
    />
    
-   <Spacing lg='80' md='80'/>
+   <Spacing lg='80' md=''/>
    <Div className="container">
      <Div className="row align-items-center">
-       <Div className="col-xl-6 col-lg-6 ">
+       {/* <Div className="col-xl-6 col-lg-6 ">
         
          <Div className="cs-radius_15 cs-shine_hover_1">
         
          <img src="/images/animated/wealth.png" alt="Member"className="w-100"  />
          </Div>
         
-       </Div>
-     <Div className="col-lg-6">
+       </Div> */}
+     <Div className="col-lg-12">
          <Spacing lg='0' md='45'/>
-         <Div className="cs-section_heading cs-style1">
-           <h2 className="cs-section_title">  Wealth Management </h2>
+         <Div className="cs-section_heading cs-style1 ">
+           <h2 className="cs-section_title text-center">  Wealth Management </h2>
            <Div className="cs-height_10 cs-height_lg_10" />
            {/* <h3 className="cs-section_subtitle">Product Designer</h3> */}
-           <Div className="cs-height_5 cs-height_lg_5" />
-           <div className="d-flex align-items-center"><Div className="cs-separator cs-accent_bg mx-1" />◈<Div className="cs-separator cs-accent_bg mx-1" /></div>
-           <Div className="cs-height_45 cs-height_lg_25" />
-           <p className="cs-m0">At Rits Capital, we offer personalized wealth management, focusing on maximizing returns while minimizing risks. With transparent communication and a client-centric approach, we guide clients towards their financial goals. We become trusted partners in our clients’ financial journey through following services under wealth management.
+           {/* <Div className="cs-height_5 cs-height_lg_5" /> */}
+           <div className="d-flex align-items-center justify-content-center"><Div className="cs-separator cs-sep cs-accent_bg mx-1" />◈<Div className="cs-separator cs-sep cs-accent_bg mx-1" /></div>
+           {/* <Div className="cs-height_45 cs-height_lg_25" /> */}
+           <p className="cs-m0 text-center">At Rits Capital, we offer personalized wealth management, focusing on maximizing returns while minimizing risks. With transparent communication and a client-centric approach, we guide clients towards their financial goals. We become trusted partners in our clients’ financial journey through following services under wealth management.
 </p>
-           <Div className="cs-height_25 cs-height_lg_20" />
+           <Div className="cs-height_25 cs-height_lg_20 " />
+           <div className="d-flex align-items-center justify-content-center">
+           <Link to="/contact" className="action-btn "><span>Consult Us</span></Link>
+           </div>
+           
            {/* <p className="cs-m0">We address critical financial needs and offer tailored solutions using our strategies and methodologies. Our services focus on execution and planned investments for future success. We provide effective products and facilities tailored to meet their specific requirements. </p> */}
            <Div className="cs-height_45 cs-height_lg_30" />
            {/* <SocialWidget/> */}
@@ -268,14 +274,15 @@ Investing in Pre-IPO opportunities with Rits Capital offers investors a unique c
 </Div>
  
    <Spacing lg='80' md='80'/>
-   {/* <Div className="container">
-     <Cta 
-       title='Let’s disscuse make <br />something <i>cool</i> together' 
-       btnText='Apply For Meeting' 
-       btnLink='/contact' 
-       bgSrc='/images/cta_bg.jpeg'
-     />
-   </Div> */}
+   <Div className="container">
+        <Cta
+          title="Let's discuss and take the journey <br/>to  <i>growth</i> together"cta
+          btnText="Setup Free Meeting"
+          btnLink="/contact"
+          bgSrc="/images/cta_bg.jpeg"
+        />
+      </Div>
+      <Spacing lg="50" md="80" />
  </>
   )
 }

@@ -29,6 +29,8 @@ import Acceleration from "./components/Pages/Acceleration";
 import Whyus from './components/Pages/Whyus';
 import { useEffect } from 'react';
 import { FaWhatsapp } from "react-icons/fa";
+import { BiSolidPhoneCall } from "react-icons/bi";
+
 // import Banner from './components/Pages/Banner';
 
 
@@ -122,6 +124,20 @@ function App() {
       <a  class="whats-app" href="https://api.whatsapp.com/send?phone=9810915695&text=Hello" target="_blank">
       <FaWhatsapp />
   </a>
+  <div className="fixedcall1">
+      <div className="phonenumber">
+        <span>
+        <BiSolidPhoneCall  />
+
+          {/* <FontAwesomeIcon icon={faPhoneVolume} /> */}
+        </span>
+        <p>
+          <a className="phn" href="tel:9810915695">
+            Call Now<br />9810915695
+          </a>
+        </p>
+      </div>
+    </div>
     </>
   );
 }

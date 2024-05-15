@@ -5,34 +5,37 @@ import PageHeading from '../PageHeading'
 import Div from '../Div'
 import Spacing from '../Spacing'
 import SocialWidget from '../Widget/SocialWidget'
-
+import { Link } from 'react-router-dom'
 const Acceleration = () => {
   return (
    <>
    <PageHeading 
-     title='Startup Incubation'
-     bgSrc='/images/team_hero_bg.png'
+     title=''
+     bgSrc='/images/animated/startupbanner.png'
      pageLinkText='Acceleration '
    />
    {/* <Spacing lg='150' md='80'/> */}
    <Div className="container">
      <Div className="row align-items-center">
-       <Div className="col-xl-6 col-lg-6">
+       {/* <Div className="col-xl-6 col-lg-6">
          <Div className="cs-radius_15 cs-shine_hover_1">
            <img src="/images/animated/Startup Incubation.png" alt="Member" className="w-100" />
          </Div>
-       </Div>
-       <Div className="col-lg-6  ">
+       </Div> */}
+       <Div className="col-lg-12  ">
          <Spacing lg='50' md='45'/>
          <Div className="cs-section_heading cs-style1">
-           <h2 className="cs-section_title">Startup Incubation </h2>
+           <h2 className="cs-section_title text-center">Startup Incubation </h2>
            <Div className="cs-height_10 cs-height_lg_10" />
            {/* <h3 className="cs-section_subtitle">Product Designer</h3> */}
            {/* <Div className="cs-height_5 cs-height_lg_5" /> */}
-           <div className="d-flex align-items-center"><Div className="cs-separator cs-accent_bg mx-1" />◈<Div className="cs-separator cs-accent_bg mx-1" /></div>
+           <div className="d-flex align-items-center justify-content-center"><Div className="cs-separator cs-sep cs-accent_bg mx-1" />◈<Div className="cs-separator cs-sep cs-accent_bg mx-1" /></div>
            <Div className="cs-height_45 cs-height_lg_25" />
-           <p className="cs-m0">Experience business growth with Rits Capital's Startup Incubation Services, funding support featuring, personalized mentorship and strategic guidance. Propel your journey with the following comprehensive Acceleration Services for thriving success.</p>
+           <p className="cs-m0 text-center">Experience business growth with Rits Capital's Startup Incubation Services, funding support featuring, personalized mentorship and strategic guidance. Propel your journey with the following comprehensive Acceleration Services for thriving success.</p>
            <Div className="cs-height_25 cs-height_lg_20" />
+           <div className="d-flex align-items-center justify-content-center">
+           <Link to="/contact" className="action-btn "><span>Consult Us</span></Link>
+           </div>
            {/* <p className="cs-m0"> At Rits Capital, we go beyond funding – we provide comprehensive Funding Support, ensuring your business has the financial backing it needs to thrive. Propel your journey with Rits Capital's Acceleration services, where mentorship, strategy, infrastructure, and funding converge for a transformative business trajectory.</p>
            <Div className="cs-height_45 cs-height_lg_30" /> */}
            {/* <SocialWidget/> */}
@@ -178,14 +181,14 @@ const Acceleration = () => {
    </Div>
  
    <Spacing lg='50' md='80'/>
-   {/* <Div className="container">
+   <Div className="container">
      <Cta 
        title='Let’s disscuse make <br />something <i>cool</i> together' 
        btnText='Apply For Meeting' 
        btnLink='/contact' 
        bgSrc='/images/cta_bg.jpeg'
      />
-   </Div> */}
+   </Div>
  </>
   )
 }

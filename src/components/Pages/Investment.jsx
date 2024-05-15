@@ -5,36 +5,40 @@ import PageHeading from '../PageHeading'
 import Div from '../Div'
 import Spacing from '../Spacing'
 import SocialWidget from '../Widget/SocialWidget'
+import { Link } from 'react-router-dom'
 
 const Investment = () => {
   return (
    <>
    <PageHeading 
-     title='Investment Banking'
-     bgSrc='/images/team_hero_bg.png'
+     title=''
+     bgSrc='/images/animated/investmentbanner.png'
      pageLinkText='Investment Banking'
    />
    {/* <Spacing lg='150' md='80'/> */}
    <Div className="container">
      <Div className="row align-items-center">
-       <Div className="col-xl-6 col-lg-6">
+       {/* <Div className="col-xl-6 col-lg-6">
          <Div className="cs-radius_15 cs-shine_hover_1">
            <img src="/images/animated/investment.png" alt="Member" className="w-100" />
          </Div>
-       </Div>
-       <Div className="col-lg-6 ">
+       </Div> */}
+       <Div className="col-lg-12 ">
          <Spacing lg='50' md='45'/>
          <Div className="cs-section_heading cs-style1">
-           <h2 className="cs-section_title">Investment Banking</h2>
+           <h2 className="cs-section_title text-center">Investment Banking</h2>
            <Div className="cs-height_10 cs-height_lg_10" />
            {/* <h3 className="cs-section_subtitle">Product Designer</h3>
            <Div className="cs-height_5 cs-height_lg_5" /> */}
-           <div className="d-flex align-items-center"><Div className="cs-separator cs-accent_bg mx-1" />◈<Div className="cs-separator cs-accent_bg mx-1" /></div>
+           <div className="d-flex align-items-center justify-content-center"><Div className="cs-separator cs-sep cs-accent_bg mx-1" />◈<Div className="cs-separator cs-sep cs-accent_bg mx-1" /></div>
            <Div className="cs-height_45 cs-height_lg_25" />
-           <p className="cs-m0">Unlock financial success with Rits Capital's Investment Banking expertise. From IPOs to M&A, our seasoned team ensures strategic growth. Access funding with tailored Private Equity solutions and secure your financial future with our Equity Capital Markets and  Debt Advisory services. We provide the following comprehensive services under Investment Banking.</p>
-           {/* <Div className="cs-height_25 cs-height_lg_20" />
-           <p className="cs-m0"> Our Valuation services provide clarity in the complex financial landscape. Seamlessly navigate Equity Capital Markets (ECM) with our advisory and secure your financial future with Debt Advisory services. Rits Capital's Investment Banking is your gateway to precision, strategy, and sustainable financial triumphs – because every financial move is a step towards your success.  
-  </p> */}
+           <p className="cs-m0 text-center">Unlock financial success with Rits Capital's Investment Banking expertise. From IPOs to M&A, our seasoned team ensures strategic growth. Access funding with tailored Private Equity solutions and secure your financial future with our Equity Capital Markets and  Debt Advisory services. We provide the following comprehensive services under Investment Banking.</p>
+            <Div className="cs-height_25 cs-height_lg_20" />
+           {/* <p className="cs-m0"> Our Valuation services provide clarity in the complex financial landscape. Seamlessly navigate Equity Capital Markets (ECM) with our advisory and secure your financial future with Debt Advisory services. Rits Capital's Investment Banking is your gateway to precision, strategy, and sustainable financial triumphs – because every financial move is a step towards your success.  
+  </p>  */}
+    <div className="d-flex align-items-center justify-content-center">
+           <Link to="/contact" className="action-btn "><span>Consult Us</span></Link>
+           </div>
            <Div className="cs-height_45 cs-height_lg_30" />
            {/* <SocialWidget/> */}
          </Div>
@@ -42,7 +46,7 @@ const Investment = () => {
      </Div>
      
    </Div>
-   <Spacing lg='80' md='80'/>
+   {/* <Spacing lg='80' md='80'/> */}
 
    {/* <Div className="container">
      <Div className="row align-items-center">
@@ -297,14 +301,14 @@ const Investment = () => {
      
    </Div>
    <Spacing lg='50' md='80'/>
-   {/* <Div className="container">
+   <Div className="container">
      <Cta 
        title='Let’s disscuse make <br />something <i>cool</i> together' 
        btnText='Apply For Meeting' 
        btnLink='/contact' 
        bgSrc='/images/cta_bg.jpeg'
      />
-   </Div> */}
+   </Div>
  </>
   )
 }

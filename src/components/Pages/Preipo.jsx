@@ -5,35 +5,38 @@ import PageHeading from '../PageHeading'
 import Div from '../Div'
 import Spacing from '../Spacing'
 import SocialWidget from '../Widget/SocialWidget'
-
+import { Link } from 'react-router-dom'
 const Preipo = () => {
   return (
    <>
    <PageHeading 
-     title='Pre IPO '
-     bgSrc='/images/team_hero_bg.png'
+     title=''
+     bgSrc='/images/animated/ipobanner.png'
      pageLinkText='Pre IPO '
    />
-   <Spacing lg='150' md='80'/>
+   <Spacing lg='80' md='80'/>
    <Div className="container">
      <Div className="row align-items-center">
-       <Div className="col-xl-6 col-lg-6">
+       {/* <Div className="col-xl-6 col-lg-6">
          <Div className="cs-radius_15 cs-shine_hover_1">
            <img src="/images/animated/ipo.png" alt="Member" className="w-100" />
          </Div>
-       </Div>
-       <Div className="col-lg-6 ">
-         <Spacing lg='0' md='45'/>
+       </Div> */}
+       <Div className="col-lg-12 ">
+         {/* <Spacing lg='0' md='45'/> */}
          <Div className="cs-section_heading cs-style1">
-           <h2 className="cs-section_title">Pre IPO </h2>
+           <h2 className="cs-section_title text-center">Pre IPO </h2>
            <Div className="cs-height_10 cs-height_lg_10" />
            {/* <h3 className="cs-section_subtitle">Product Designer</h3> */}
            {/* <Div className="cs-height_5 cs-height_lg_5" /> */}
-          <div className="d-flex align-items-center"><Div className="cs-separator cs-accent_bg mx-1" />◈<Div className="cs-separator cs-accent_bg mx-1" /></div>
+          <div className="d-flex align-items-center justify-content-center"><Div className="cs-separator cs-sep cs-accent_bg mx-1" />◈<Div className="cs-separator cs-sep cs-accent_bg mx-1" /></div>
            <Div className="cs-height_45 cs-height_lg_25" />
            
-           <p className="cs-m0">Embark on your Pre-IPO journey with Rits Capital, exploring exclusive unlisted share deals tailored to your investment goals. Benefit from the following holistic IPO services and navigate uncharted territories for success.</p>
+           <p className="cs-m0 text-center">Embark on your Pre-IPO journey with Rits Capital, exploring exclusive unlisted share deals tailored to your investment goals. Benefit from the following holistic IPO services and navigate uncharted territories for success.</p>
            <Div className="cs-height_25 cs-height_lg_20" />
+           <div className="d-flex align-items-center justify-content-center">
+           <Link to="/contact" className="action-btn "><span>Consult Us</span></Link>
+           </div>
            {/* <p className="cs-m0">Rits Capital's Pre-IPO expertise ensures that you stay ahead in the ever-evolving financial landscape, securing your position for success. Join us as we navigate the uncharted territories of unlisted shares, bringing you unparalleled opportunities and strategic investment avenues. Elevate your investment experience with Rits Capital's Pre-IPO offers.</p>
            <Div className="cs-height_45 cs-height_lg_30" /> */}
            {/* <SocialWidget/> */}
@@ -148,14 +151,14 @@ const Preipo = () => {
 
   
    <Spacing lg='50' md='80'/>
-   {/* <Div className="container">
+   <Div className="container">
      <Cta 
        title='Let’s disscuse make <br />something <i>cool</i> together' 
        btnText='Apply For Meeting' 
        btnLink='/contact' 
        bgSrc='/images/cta_bg.jpeg'
      />
-   </Div> */}
+   </Div>
  </>
   )
 }

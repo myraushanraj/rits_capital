@@ -42,13 +42,13 @@ export default function Header({ variant }) {
                     className="cs-nav_list"
                     style={{ display: `${mobileToggle ? 'block' : 'none'}` }}
                   >
-                    <li 
-                    // className="menu-item-has-children"
+                    {/* <li 
+                    className="menu-item-has-children"
                     >
                       <NavLink to="/" onClick={() => setMobileToggle(false)}>
                         Home
                       </NavLink>
-                      {/* <DropDown>
+                      <DropDown>
                         <ul>
                           <li>
                             <Link to="/" onClick={() => setMobileToggle(false)}>
@@ -104,8 +104,8 @@ export default function Header({ variant }) {
                             </Link>
                           </li>
                         </ul>
-                      </DropDown> */}
-                    </li>
+                      </DropDown>
+                    </li> */}
                     <li>
                       <NavLink
                         to="about"

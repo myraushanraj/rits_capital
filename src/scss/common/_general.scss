@@ -836,6 +836,17 @@ label {
     width: 48%;
     // margin: 0 10%;
     border-radius: 2px;
+  
+  }
+  .cs-sep{
+    width: 25%;
+
+  }
+  @media screen and (max-width: 767px) {
+    .cs-sep{
+      width: 48%;
+  
+    } 
   }
 }
 .cs-hover_layer,
@@ -1087,9 +1098,9 @@ label {
 }
 
 .cs-page_heading.cs-style1 {
-  height:400px;
+  height:450px;
   padding: 120px 0 50px;
-  // margin-top: 80px;
+  margin-top: 80px;
   position: relative;
   &::after {
     content: '';
@@ -1563,7 +1574,8 @@ label {
   }
   .cs-page_heading.cs-style1 {
     padding: 100px 0 50px;
-    height: 400px;
+    height: 450px;
+    margin-top: 80px;
     .cs-page_title {
       margin-bottom: 15px;
     }
@@ -1751,3 +1763,102 @@ top: 50%;
   right: 0%;
   top: 200%;
 }
+/* styles.css */
+
+.fixedcall1 {
+  position: fixed;
+  width: 180px;
+  height: 45px;
+  margin: 0;
+  padding: 0;
+  top: 28%;
+  right: -135px;
+  z-index: 999;
+  border-radius: 10px 0 0 10px;
+  overflow: hidden;
+  background: $border;
+  transition: .4s;
+}
+
+.fixedcall1:hover {
+  right: 0;
+}
+
+.fixedcall1 .phonenumber {
+  display: block;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+  font-weight: 600;
+  letter-spacing: .6px;
+  text-decoration: none;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  transition: .4s;
+}
+
+.fixedcall1 .phonenumber span {
+  width: 45px;
+  height: 45px;
+  float: left;
+  background: $accent;
+  font-size: 25px;
+  margin: 0 15px 0 0;
+  text-align: center;
+  line-height: 45px;
+  color: #fff;
+}
+
+.fixedcall1 .phonenumber p {
+  margin: 0;
+  padding: 7px;
+  color: $accent;
+}
+
+.phn {
+  color: $accent;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+  font-weight: 600;
+  letter-spacing: .6px;
+  text-decoration: none;
+}
+
+// .fixedcall1 .phonenumber span i {
+//   color: #fff;
+//   animation: flipInY 1.25s infinite;
+// }
+
+/* Keyframes for animation */
+// @keyframes flipInY {
+//   from {
+//     transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+//     animation-timing-function: ease-in;
+//     opacity: 0;
+//   }
+
+//   40% {
+//     transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+//     animation-timing-function: ease-in;
+//   }
+
+//   60% {
+//     transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+//     opacity: 1;
+//   }
+
+//   80% {
+//     transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+//   }
+
+//   to {
+//     transform: perspective(400px);
+//   }
+// }
+
+// .flipInY {
+//   backface-visibility: visible !important;
+//   animation-name: flipInY;
+// }

@@ -67,7 +67,7 @@ export default function CaseStudyShowcaseHome() {
 
                     <div className="banner__right">
                         <div className="image-1">
-                            <img src="/images/animated/homebanner.png" alt="" />
+                            <img className='homeimg' src="/images/animated/homebanner1.png" alt="" />
                         </div>
 
                   
