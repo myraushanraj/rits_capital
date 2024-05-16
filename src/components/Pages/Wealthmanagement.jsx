@@ -48,23 +48,23 @@ const Wealthmanagement = () => {
            </div>
            
            {/* <p className="cs-m0">We address critical financial needs and offer tailored solutions using our strategies and methodologies. Our services focus on execution and planned investments for future success. We provide effective products and facilities tailored to meet their specific requirements. </p> */}
-           <Div className="cs-height_45 cs-height_lg_30" />
+           {/* <Div className="cs-height_45 cs-height_lg_30" /> */}
            {/* <SocialWidget/> */}
          </Div>
        </Div>
      </Div>
      
    </Div>
-   <Spacing lg='80' md='80'/>
+   <Spacing lg='80' md='20'/>
 
    <Div className="container">
      <Div className="row align-items-center">
      
        <Div className="col-lg-6 order-lg-1 order-2">
-         <Spacing lg='0' md='45'/>
+         <Spacing lg='0' md='20'/>
          <Div className="cs-section_heading cs-style1">
            <h2 className="cs-section_title">Portfolio Management Services (PMS)</h2>
-           <Div className="cs-height_10 cs-height_lg_10" />
+           {/* <Div className="cs-height_10 cs-height_lg_10" /> */}
            {/* <h3 className="cs-section_subtitle">Product Designer</h3> */}
            <Div className="cs-height_5 cs-height_lg_5" />
           <div className="d-flex align-items-center"><Div className="cs-separator cs-accent_bg mx-1" />◈<Div className="cs-separator cs-accent_bg mx-1" /></div>
@@ -76,32 +76,32 @@ const Wealthmanagement = () => {
 <li>Collaborative planning creates tailored portfolios meeting customer requirements.</li></ul>
            {/* <p className="cs-m0">Portfolio Management Service where financial success meets personalized strategy. Our dedicated team of experts directs the market challenges to check your investment journey. Our team has collaborative planning and creates separate portfolios which focus on customer’s requirements 
 </p> */}
-           <Div className="cs-height_25 cs-height_lg_20" />
-           <p className="cs-m0"></p>
-           <Div className="cs-height_45 cs-height_lg_30" />
-           {/* <SocialWidget/> */}
+           {/* <Div className="cs-height_25 cs-height_lg_20" />
+           <p className="cs-m0"></p> */}
+           {/* <Div className="cs-height_45 cs-height_lg_30" />
+           <SocialWidget/> */}
          </Div>
        </Div>
        <Div className="col-xl-6 col-lg-6 order-lg-2 order-1">
-         {/* <Div className="cs-radius_15 cs-shine_hover_1"> */}
+         <Div className="cs-radius_15 cs-shine_hover_1">
            <img src="/images/animated/pms.png" alt="Member" className="w-100" />
-         {/* </Div> */}
+         </Div>
        </Div>
      </Div>
 
      
    </Div>
-   <Spacing lg='80' md='80'/>
+   <Spacing lg='80' md='20'/>
 
    <Div className="container">
      <Div className="row align-items-center">
        <Div className="col-xl-6 col-lg-6 ">
-         {/* <Div className="cs-radius_15 cs-shine_hover_1"> */}
+         <Div className="cs-radius_15 cs-shine_hover_1">
            <img src="/images/animated/startupinvest.png" alt="Member" className="w-100" />
-         {/* </Div> */}
+         </Div>
        </Div>
        <Div className="col-lg-6">
-         <Spacing lg='0' md='45'/>
+         <Spacing lg='0' md='20'/>
          <Div className="cs-section_heading cs-style1 show">
            <h2 className="cs-section_title">Startup Investment </h2>
            <Div className="cs-height_10 cs-height_lg_10" />
@@ -121,25 +121,25 @@ const Wealthmanagement = () => {
 {/* <Div className="cs-height_25 cs-height_lg_20" />
 <p className='hide'>At Rits Capital, we believe that the future belongs to those who innovate and adapt. Our Wealth Management services, particularly in start-up investments, are designed to place you at the forefront of this future. Whether you are new to start-up investments or looking to diversify your portfolio, we invite you to explore the possibilities with us. Let’s embark on a journey of growth, innovation, and unparalleled returns.</p> */}
 
-           <Div className="cs-height_25 cs-height_lg_20" />
-           <p className="cs-m0"></p>
-           <Div className="cs-height_45 cs-height_lg_30" />
+           {/* <Div className="cs-height_25 cs-height_lg_20" />
+           <p className="cs-m0"></p> */}
+           {/* <Div className="cs-height_45 cs-height_lg_30" /> */}
            {/* <SocialWidget/> */}
          </Div>
        </Div>
      </Div>
      
    </Div>
-   <Spacing lg='80' md='80'/>
+   <Spacing lg='80' md='20'/>
 
    <Div className="container">
      <Div className="row align-items-center">
      
        <Div className="col-lg-6 order-lg-1 order-2">
-         <Spacing lg='0' md='45'/>
+         {/* <Spacing lg='0' md='20'/> */}
          <Div className="cs-section_heading cs-style1 show ">
            <h2 className="cs-section_title">Real Estate Investment </h2>
-           <Div className="cs-height_10 cs-height_lg_10" />
+           {/* <Div className="cs-height_10 cs-height_lg_10" /> */}
            {/* <h3 className="cs-section_subtitle">Product Designer</h3> */}
            <Div className="cs-height_5 cs-height_lg_5" />
           <div className="d-flex align-items-center"><Div className="cs-separator cs-accent_bg mx-1" />◈<Div className="cs-separator cs-accent_bg mx-1" /></div>

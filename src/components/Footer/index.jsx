@@ -77,7 +77,7 @@ export default function Footer({copyrightText, logoSrc, logoAlt, text}) {
           <Div className="row">
             <Div className="col-lg-3 col-sm-6">
               <Div className="cs-footer_item">
-                <div className="small" style={{ width:"40%",marginBottom:"1px"}} ><img src="/images/ritslogo1.png" alt="" /></div>
+                <div className="small" style={{ width:"40%",marginBottom:"1px"}} ><img className=''style={{ width:"100%",marginBottom:"1px"}} src="/images/ritslogo1.png" alt="" /></div>
                 <TextWidget 
                   // logoSrc='/images/ritslogo1.png' 
                   // logoAlt='Logo'

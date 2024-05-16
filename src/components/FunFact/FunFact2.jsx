@@ -45,7 +45,7 @@ class FunFact2 extends React.Component {
                 <div className="container">
                  
                     <div className="row" >
-                        <div className="fan col-lg-3 col-sm-6">
+                        <div className="fan col-lg-3 col-sm-12">
                             <div className="single-funfact">
                                 
                                 {/* <div className="icon">
@@ -77,7 +77,7 @@ class FunFact2 extends React.Component {
                         </div>
       
                         
-                        <div className="fan col-lg-3 col-sm-6">
+                        <div className="fan col-lg-3 col-sm-12">
                             <div className="single-funfact">
                                 {/* <div className="icon">
                                 <img src="/images/webicons/data-management.png" alt="" />
@@ -108,7 +108,7 @@ class FunFact2 extends React.Component {
                             </div>
                         </div>
 
-                        <div className="fan col-lg-3 col-sm-6">
+                        <div className="fan col-lg-3 col-sm-12">
                             <div className="single-funfact">
                                 {/* <div className="icon">
                                 <img src="/images/webicons/profit.png " alt="" />
@@ -139,7 +139,7 @@ class FunFact2 extends React.Component {
                             </div>
                         </div>
 
-                        <div className="fan col-lg-3 col-sm-6">
+                        <div className="fan col-lg-3 col-sm-12">
                             <div className="single-funfact">
                                 {/* <div className="icon">
                                 <img src="/images/webicons/fixed-asset.png" alt="" />

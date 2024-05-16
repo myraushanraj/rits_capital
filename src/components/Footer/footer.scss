@@ -138,7 +138,7 @@
 }
 
 
-.cs-bottom_footer {
+.cs-bottom_footer .row{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -183,8 +183,10 @@
 }
 }
 @media screen and (max-width: 767px) {
-  .cs-bottom_footer {
-    flex-direction: column;
+  .cs-bottom_footer .row{
+    // flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
     justify-content: center;
     align-items: center;

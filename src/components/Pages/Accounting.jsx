@@ -189,6 +189,7 @@ const Accounting = () => {
        bgSrc='/images/cta_bg.jpeg'
      />
    </Div>
+   <Spacing lg="50" md="80" />
  </>
   )
 }

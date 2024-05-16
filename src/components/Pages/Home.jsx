@@ -239,10 +239,10 @@ export default function Home() {
         <SectionHeading
           title="What We Do"
           subtitle=""
-          variant="cs-style1 text-center red-text"
+          variant="cs-style1 text-center"
           
         />
-        <Spacing lg="50" md="45" />
+        <Spacing lg="50" md="0" />
       </Div>
       {portfolioData.map((item, index) =>
         index % 2 === 0 ? (
@@ -259,7 +259,7 @@ export default function Home() {
             />
 
            
-            <Spacing lg="50" md="50" />
+            <Spacing lg="50" md="0" />
       {/* <Div className="glow"><img id='i4' src="/images/Glow1.svg" alt="" /></Div> */}
 
           </Div>
@@ -275,7 +275,7 @@ export default function Home() {
               
               // category={item.category}
             />
-            <Spacing lg="50" md="70" />
+            <Spacing lg="50" md="0" />
           </Div>
         ),
       )}

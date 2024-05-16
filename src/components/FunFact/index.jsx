@@ -114,7 +114,7 @@ class FunFact extends React.Component {
                             </div>
                         </div>
 
-                        <div className="fan col-lg-3 -sm-6">
+                        <div className="fan col-lg-3 col-sm-6">
                             <div className="single-funfact mx-6">
                                 {/* <div className="icon">
                                 <img src="/images/webicons/return-on-investment.png" alt="" />

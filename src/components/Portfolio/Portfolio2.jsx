@@ -18,7 +18,7 @@ export default function Portfolio2({title, subtitle, btnText, btnLink, imageUrl,
             </Div>
           </Div>
           <Div className="col-xl-6 col-lg-6 ">
-            <Spacing lg='0' md='35'/>
+            <Spacing lg='0' md='0'/>
             <Div className="cs-section_heading cs-style1">
               <h2 className="cs-section_title">{title}</h2>
               <h3 className="cs-section_subtitle">{subtitle}</h3>

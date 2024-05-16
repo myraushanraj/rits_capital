@@ -12,7 +12,7 @@ const Whyus = () => {
   return (
     <>
     <PageHeading 
-        title='Why us'
+        title=''
         bgSrc='/images/service_hero_bg.png'
         pageLinkText="Why Us"
       />
@@ -336,6 +336,16 @@ const Whyus = () => {
         </Div>
       </Div> */}
       {/* End Why Choose Section */}
+      <Spacing lg='50' md='80'/>
+   <Div className="container">
+     <Cta 
+       title='Let’s disscuse make <br />something <i>cool</i> together' 
+       btnText='Apply For Meeting' 
+       btnLink='/contact' 
+       bgSrc='/images/cta_bg.jpeg'
+     />
+   </Div>
+   <Spacing lg="50" md="80" />
     </>
   )
 }

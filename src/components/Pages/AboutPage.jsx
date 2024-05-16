@@ -43,7 +43,7 @@ export default function AboutPage() {
       {/* End Page Heading Section */}
 
       {/* Start About Section */}
-      <Spacing lg="150" md="80" />
+      <Spacing lg="150" md="100" />
       <Div className="container">
         <Div className="row">
           <Div className="col-xl-6 col-lg-7">
@@ -51,7 +51,7 @@ export default function AboutPage() {
               title="About Rits Capital"
               subtitle=""
             >
-              <Spacing lg="30" md="20" />
+              <Spacing lg="20" md="" />
               <p className="cs-m0">
               At Rits Capital, we understand that wealth management is more than just numbers. It's about your goals, your dreams, and your legacy. We partner with you to create a personalized plan that grows your wealth, protects your assets, and helps you achieve your financial aspirations.
               </p>
@@ -86,7 +86,7 @@ export default function AboutPage() {
           </Div> */}
         </Div>
       </Div>
-      <Spacing lg="75" md="55" />
+      <Spacing lg="75" md="" />
       {/* End About Section */}
 
       {/* Start Fun Fact Section */}
