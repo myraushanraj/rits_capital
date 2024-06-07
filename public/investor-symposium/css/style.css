@@ -8088,3 +8088,7 @@ padding: 30px;
 
 #secondModal.fade.show{opacity: 1; z-index: 99999;}
 #secondModal{top: 20%;padding-top: 95px;}
+
+.space_left{
+	padding-left: 10px;
+}

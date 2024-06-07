@@ -29,7 +29,7 @@ $(window).scroll(function() {
 
 $(function(){
 	$(".typed").typed({
-		strings: ["INVESTOR SYMPOSIUM"],
+		strings: ["STARTUP PITCH DAY"],
 		// Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
 		stringsElement: null,
 		// typing speed
