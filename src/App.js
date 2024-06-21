@@ -38,6 +38,8 @@ const External = ()=>{
   currentHeight = window.screen.width >600 ? window.screen.height - 142 : window.screen.height;
   useEffect(()=>{
     window.location.href = '/investor-symposium/index.html';
+  
+
   },[])
   return(
     <>
