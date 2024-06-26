@@ -2471,14 +2471,31 @@ const rawResponse = await fetch(
 
 
 const content = await rawResponse.json();
+// console.log(" am", i_am)
 	  if(i_am==="Sponsor"){
-		    document.getElementById("payment_btn").click();
-        console.log("goes here")
+		    window.location.href ="https://www.paypal.com/ncp/payment/T23M76J4G38EN";
+        return
+
+	  }
+    if(i_am==="Founder"){
+		    window.location.href =" https://www.paypal.com/ncp/payment/85TREMLY9LF3C";
         return
 
 	  }
 
-window.location.href = "success.html";
+
+    if(i_am==="Delegate"){
+		    window.location.href =" https://www.paypal.com/ncp/payment/W9MKLJY3J3N8S";
+        return
+
+	  }
+
+    // if(i_am==="Sponsor"){
+		//     window.location.href ="https://www.paypal.com/ncp/payment/T23M76J4G38EN";
+    //     return
+	  // }
+    
+//window.location.href = "success.html";
 // window.location.href = "https://climifi.com/register/";
 
         
